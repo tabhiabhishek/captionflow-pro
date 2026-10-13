@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1986.0,
+    "end_sec": 1989.0,
+    "video_start": 0.0,
+    "video_end": 0.826,
+    "raw_text": "कि मुछे टो, जचे टॉरोसाय",
+    "current_start": "17:39:24.293",
+    "current_end": "17:41:59.011",
+    "text": "कि मुछे टो, जचे टॉरोसाय।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.826,
+        "text": "कि मुछे टो, जचे टॉरोसाय।",
+        "char_count": 24
+      }
+    ],
+    "cea608_frame": "कि मुछे टो, जचे टॉरोसाय।"
+  },
+  "processing_ms": 156.2,
+  "sequence": 663
+}

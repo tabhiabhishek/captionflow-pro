@@ -1,0 +1,506 @@
+{
+  "_version": "2.0",
+  "_file": "config.json — the only control surface for quick_captions.py",
+  "_deploy": "To move to another machine change ONLY the values under 'paths'. Every other section is behaviour, not location.",
+  "_note": "Read once at worker startup — restart the worker after editing. Save as UTF-8 without BOM.",
+  "application": {
+    "name": "Vaak_AI_Controller",
+    "instance_id": null,
+    "environment": "production",
+    "language": "en",
+    "task": "transcribe",
+    "active_sport_profile": "cricket",
+    "active_audio_profile": "default"
+  },
+  "paths": {
+    "input_folder": "D:/model_ai/sources/feed/Audio Files",
+    "output_folder": "D:/model_ai/sources/Text Files",
+    "log_folder": "D:/model_ai/Model/logs",
+    "model_path": "D:/model_ai/Model/modal_26_08_2026",
+    "terminology_folder": "D:/model_ai/Terminology",
+    "overlap_store": "D:/model_ai/Model/overlap_tail.npy",
+    "profanity_path": "D:/model_ai/Terminology/abusive.txt",
+    "prompt_path": "D:/model_ai/prompt/match_info.txt",
+    "Prompt_folder": "D:/model_ai/prompt",
+    "phonetic_aliases_file": "D:/model_ai/prompt/phonetic_aliases.txt",
+    "hallucination_folder": "D:/model_ai/Model/hallucination/hallucination.json",
+    "calibration_folder": "D:/model_ai/Model/calibration/calibration.json"
+  },
+  "processing": {
+    "sample_rate": 16000,
+    "language": "en",
+    "task": "transcribe",
+    "chunk_duration": 3.0,
+    "chunk_overlap": 1.0,
+    "audio_pad_seconds": 0.5
+  },
+
+  "decode": {
+    "num_beams": 1,
+    "no_speech_threshold": 0.6,
+    "compression_ratio_threshold": 2.4,
+    "condition_on_previous_text": false,
+    "repetition_penalty": 1.2,
+    "no_repeat_ngram_size": 3,
+    "force_language": true
+  },
+
+  "match_info": {
+    "source": "inline",
+    "file": null,
+    "auto_reload": true,
+    "inline": {
+      "series": "Indian Premier League 2026",
+      "match": "Sunrisers Hyderabad vs Rajasthan Royals",
+      "match_number": "IPL 2026 Match",
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+      "commentators": [
+        "Harsha Bhogle",
+        "Sunil Gavaskar",
+        "Simon Doull",
+        "Ian Bishop",
+        "AB de Villiers",
+        "Aaron Finch",
+        "Dale Steyn",
+        "Faf du Plessis",
+        "Ravi Shastri"
+      ],
+      "umpires": [
+        "Adrian Holdstock",
+        "Ulhas Gandhe"
+      ],
+      "third_umpire": "Rohan Pandit"
+    }
+  },
+
+  "prompt_settings": {
+    "enabled": true,
+    "max_terms": 50,
+    "template": "Live English cricket commentary: {terms}",
+    "include_player_names": true,
+    "include_domain_terms": true,
+    "include_match_context": true
+  },
+
+  "context_injection": {
+    "enabled": true,
+    "use_rolling_context": true,
+    "rolling_words": 24,
+    "max_prompt_chars": 900,
+    "dynamic_prompt_file": "prompt/dynamic_prompt.json"
+  },
+
+  "prompt_injection": {
+    "enabled": true,
+    "inject_via_tokenizer": true
+  },
+
+  "direct_terminology": {
+    "enabled": true,
+    "source": "both",
+    "auto_reload": true,
+    "reload_on_change": true,
+    "strip_key_whitespace": true,
+    "skip_empty_keys": true,
+    "multi_word_pattern": "lookaround",
+    "player_names": [],
+    "player_fixes": {},
+    "cricket_terms": {
+      "yorker": "yorker",
+      "bouncer": "bouncer",
+      "doosra": "doosra",
+      "googly": "googly",
+      "leg spinner": "leg-spinner",
+      "off spinner": "off-spinner",
+      "powerplay": "Powerplay",
+      "power play": "Powerplay",
+      "death overs": "death overs",
+      "super over": "Super Over",
+      "drs": "DRS",
+      "lbw": "LBW",
+      "wide ball": "wide",
+      "no ball": "no-ball",
+      "maiden": "maiden",
+      "stumps": "stumps",
+      "crease": "crease",
+      "runway": "run rate",
+      "runways": "run rate"
+    },
+    "files": {
+      "player_names_file": null,
+      "player_fixes_file": null,
+      "domain_terms_file": null
+    }
+  },
+
+  "phonetic_correction": {
+    "enabled": false,
+    "roster_only": true,
+    "fuzzy_threshold": 90,
+    "similarity_threshold": 90,
+    "use_token_sort_ratio": true,
+    "protect_dictionary_words": true,
+    "min_phonetic_ratio": 70
+  },
+
+  "fuzzy_correction": {
+    "enabled": false,
+    "similarity_threshold": 85,
+    "min_word_len": 5
+  },
+
+  "deduplication": {
+    "similarity_threshold": 98,
+    "seen_buffer_size": 4,
+    "fuzzy_threshold": 92,
+    "output_repeat_threshold": 0.93,
+    "semantic": {
+      "enabled": false,
+      "similarity_threshold": 0.92,
+      "history_window": 8
+    }
+  },
+
+  "boundary_buffer": {
+    "pending_timeout_sec": 3,
+    "max_overlap_words": 10,
+    "min_overlap_chars": 20,
+    "early_emit_on_punctuation": true
+  },
+
+  "timestamp_model": {
+    "name": "base",
+    "beam_size": 5,
+    "vad_filter": false,
+    "condition_on_previous_text": false,
+    "min_silence_duration_ms": 500,
+    "threshold": 0.5,
+    "stretch_threshold": 0.85
+  },
+
+  "whisperx": {
+    "model": "small",
+    "compute_type": "float16",
+    "batch_size": 16,
+    "align_model": "WAV2VEC2_ASR_LARGE_LV60K_960H"
+  },
+
+  "performance": {
+    "async_processing": false,
+    "num_worker_threads": 2,
+    "keep_model_loaded": true,
+    "cache_audio": true,
+    "preload_terminology": true,
+    "reload_interval": 300,
+    "gpu_memory_fraction": 0.8,
+    "prefetch_chunks": 2,
+    "timestamp_smoothing_window": 3,
+    "retry_attempts": 2,
+    "retry_delay_ms": 100,
+    "memory_optimization_interval": 50
+  },
+
+  "output": {
+    "console_output": true,
+    "json_indent": 2,
+    "json_filename_match_input": true,
+    "overwrite_existing": true,
+    "include_confidence": false,
+    "include_timing": false,
+    "min_output_words": 2
+  },
+
+  "vad": {
+    "enabled": true,
+    "threshold": 0.0001,
+    "use_silero": true,
+    "silero_threshold": 0.5,
+    "min_speech_duration": 0.0,
+    "min_silence_duration": 0.2,
+    "min_speech_duration_ms": 500,
+    "min_silence_duration_ms": 300,
+    "speech_pad_ms": 100,
+    "window_threshold": 0.06,
+    "ratio_gate": 0.05,
+    "zcr_threshold": 0.45,
+    "flatness_threshold": 0.22,
+    "adaptive": true,
+    "adaptive_threshold_min": 0.4,
+    "adaptive_threshold_max": 0.7,
+    "consecutive_silence_threshold": 2,
+    "calibration_min_count": 2
+  },
+
+  "watchdog": {
+    "enabled": true,
+    "max_restarts": 10,
+    "restart_delay": 5,
+    "health_check_interval": 30,
+    "memory_threshold_mb": 6000,
+    "cpu_threshold_percent": 80
+  },
+
+  "grammar": {
+    "filler_words": [
+      "um",
+      "uh",
+      "hmm",
+      "let me see",
+      "you know",
+      "like"
+    ],
+    "hallucination_exact": [
+      "thank you",
+      "thanks for watching",
+      "please subscribe",
+      "like and subscribe",
+      "subscribe",
+      "welcome",
+      "bye",
+      "hello",
+      "hi",
+      "i'm not sure",
+      "not sure",
+      "how to do it",
+      "i don't know",
+      "um",
+      "uh",
+      "hmm"
+    ],
+    "hallucination_starts": [
+      "thank you for",
+      "thanks for watching",
+      "subscribe to",
+      "please subscribe",
+      "click the bell",
+      "i'm not sure",
+      "how to do",
+      "i don't know",
+      "www.",
+      "http",
+      "[music]",
+      "(music)",
+      "[applause]",
+      "[laughter]"
+    ],
+    "hallucination_patterns": [
+      "^[\\s\\.\\,\\?\\!\\-]*$",
+      "^[0-9\\s\\.]+$",
+      "^\\W+$",
+      "(\\b\\w+\\b\\s*)\\1{4,}",
+      "^i['\\s]*am?\\s+not\\s+sure",
+      "^how\\s+to\\s+do\\s+it",
+      "^i\\s+don['\\s]*t\\s+know",
+      "^thank\\s+you",
+      "^subscribe\\s+to"
+    ],
+    "allow_short_words": {
+      "i": true,
+      "a": true,
+      "oh": true,
+      "no": true,
+      "yes": true,
+      "ok": true,
+      "hi": true,
+      "by": true,
+      "up": true,
+      "in": true,
+      "on": true,
+      "at": true,
+      "out": true,
+      "lbw": true,
+      "drs": true,
+      "six": true,
+      "four": true,
+      "run": true,
+      "wide": true,
+      "over": true,
+      "wicket": true
+    }
+  },
+
+  "cea608": {
+    "max_line_len": 26,
+    "max_lines": 2,
+    "frame_rate": 25,
+    "scroll_gap_frames": 6,
+    "safety_pad_frames": 5,
+    "min_frames": 20,
+    "buffer_frames": 10,
+    "min_line_duration_sec": 0.8,
+    "chars_per_frame": 2,
+    "min_seconds_per_word": 0.25,
+    "min_total_seconds": 0.5
+  },
+
+  "pipeline": {
+    "enable_prompt": true,
+    "enable_context": true,
+    "enable_terminology": true,
+    "enable_fuzzy": false,
+    "enable_phonetic": true,
+    "enable_roster": true,
+    "enable_filter_non_english": true,
+    "enable_filler_removal": true,
+    "enable_dedup_words": true,
+    "enable_dedup_players": true,
+    "enable_dedup_sentences": true,
+    "enable_dedup_phrases": true,
+    "enable_remove_stutters": true,
+    "enable_hallucination_filter": true,
+    "enable_profanity_filter": true,
+    "enable_fix_grammar": true,
+    "enable_capitalize_proper_nouns": true,
+    "enable_fix_capitalization": true,
+    "enable_fix_punctuation": true,
+    "enable_audio_enhancement": true,
+    "enable_boundary_buffer": true,
+    "enable_whisperx": true,
+    "enable_timestamp_smoothing": true,
+    "enable_context_injection": true,
+    "enable_audio_masking": false,
+    "enable_sport_detection": false,
+    "enable_score_fix": false,
+    "enable_duplicate_removal": true,
+    "enable_player_name_correction": true,
+    "enable_merge_split_scores": false
+  },
+
+  "profanity_filter": {
+    "enabled": true,
+    "file": null,
+    "mode": "partial",
+    "mask_char": "*",
+    "tag": "[expletive]",
+    "match_inflections": true,
+    "allowlist": [
+      "classic",
+      "bass",
+      "mass",
+      "pass",
+      "grass",
+      "glass",
+      "assassin",
+      "assistant",
+      "passion",
+      "compass"
+    ]
+  },
+
+  "sport_profiles": {
+    "cricket": {
+      "audio_profile": "default",
+      "prompt_template": "Live English cricket commentary: {terms}",
+      "language": "en",
+      "key_terms": [
+        "wicket",
+        "over",
+        "boundary",
+        "six",
+        "lbw",
+        "googly",
+        "yorker",
+        "maiden",
+        "stumps",
+        "crease"
+      ],
+      "score_context": [
+        "runs",
+        "wickets",
+        "overs",
+        "strike rate",
+        "economy"
+      ]
+    },
+    "auto": {
+      "audio_profile": "default",
+      "prompt_template": "Live commentary: {terms}",
+      "language": "en",
+      "key_terms": [],
+      "score_context": []
+    }
+  },
+
+  "audio_profiles": {
+    "stadium": {
+      "bandpass_low": 100,
+      "bandpass_high": 4000,
+      "noise_gate_threshold": 0.02,
+      "target_rms": 0.12
+    },
+    "studio": {
+      "bandpass_low": 80,
+      "bandpass_high": 8000,
+      "noise_gate_threshold": 0.005,
+      "target_rms": 0.1
+    },
+    "field": {
+      "bandpass_low": 150,
+      "bandpass_high": 3500,
+      "noise_gate_threshold": 0.03,
+      "target_rms": 0.15
+    },
+    "default": {
+      "bandpass_low": 80,
+      "bandpass_high": 3800,
+      "noise_gate_threshold": 0.018,
+      "target_rms": 0.1
+    }
+  },
+
+  "audio": {
+    "enhancement": {
+      "enabled": true,
+      "auto_profile": true,
+      "profile": "default",
+      "bandpass_low": 80,
+      "bandpass_high": 3800,
+      "noise_reduce_strength": 0.8,
+      "gain_normalization": true,
+      "normalize_rms": true,
+      "adaptive_eq": false
+    },
+    "masking": {
+      "enabled": false,
+      "mask_overlap_regions": true,
+      "mask_padding_regions": true,
+      "fade_ms": 10
+    }
+  },
+
+  "roster_correction": {
+    "enabled": true,
+    "fuzzy_gate": 85,
+    "phonetic_min_score": 85,
+    "confidence_threshold": 0.85,
+    "auto_reload": true,
+    "reload_on_change": true,
+    "priority": "roster_first",
+    "cache_enabled": true,
+    "files": {
+      "player_file": null,
+      "team_file": null,
+      "coach_file": null,
+      "official_file": null,
+      "venue_file": null
+    }
+  },
+
+  "debug": {
+    "enabled": false,
+    "log_lifecycle": false,
+    "log_corrections": false,
+    "log_chunk_timing": false,
+    "log_overlap": false,
+    "log_prompt": false,
+    "log_terminology": false,
+    "log_pipeline": false,
+    "corrections_file": null
+  },
+
+  "calibration": {
+    "harvest_silent": true,
+    "harvest_max": 300,
+    "harvest_max_rms": 0.02
+  }
+}

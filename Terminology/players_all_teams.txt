@@ -1,0 +1,872 @@
+# ============================================
+# ALL TEAMS PLAYER NAMES + ASR MISRECOGNITIONS
+# Loaded at startup from terminology folder
+# Format: wrong: correct  OR  plain name (for fuzzy)
+# Priority: BASE (loaded for all matches)
+# ============================================
+
+# ═══════════════════════════════════════════════
+# SRI LANKA
+# ═══════════════════════════════════════════════
+Kusal Mendis
+Pathum Nissanka
+Charith Asalanka
+Dhananjaya de Silva
+Kamindu Mendis
+Wanindu Hasaranga
+Dunith Wellalage
+Maheesh Theekshana
+Matheesha Pathirana
+Dilshan Madushanka
+Dasun Shanaka
+Angelo Mathews
+Dinesh Chandimal
+Kasun Rajitha
+Dushmantha Chameera
+Lahiru Kumara
+Chamika Karunaratne
+
+# SL ASR misrecognitions
+mendis: Mendis
+mendez: Mendis
+kusal: Kusal
+kushal: Kusal
+nissanka: Nissanka
+nisanka: Nissanka
+nishanka: Nissanka
+asalanka: Asalanka
+ashlanka: Asalanka
+assalanka: Asalanka
+hasaranga: Hasaranga
+hasranga: Hasaranga
+hasserunga: Hasaranga
+wanindu: Wanindu
+vanidu: Wanindu
+theekshana: Theekshana
+tikshana: Theekshana
+teekshana: Theekshana
+pathirana: Pathirana
+patirana: Pathirana
+patheirana: Pathirana
+madushanka: Madushanka
+madhushanka: Madushanka
+wellalage: Wellalage
+welalage: Wellalage
+wellalaji: Wellalage
+shanaka: Shanaka
+dhananjaya: Dhananjaya
+dananjaya: Dhananjaya
+kamindu: Kamindu
+kameendu: Kamindu
+chandimal: Chandimal
+chameera: Chameera
+chamira: Chameera
+mathews: Mathews
+matthews: Mathews
+karunaratne: Karunaratne
+kumara: Kumara
+rajitha: Rajitha
+
+# ═══════════════════════════════════════════════
+# BANGLADESH
+# ═══════════════════════════════════════════════
+Shakib Al Hasan
+Mushfiqur Rahim
+Tamim Iqbal
+Mustafizur Rahman
+Litton Das
+Taskin Ahmed
+Mehidy Hasan Miraz
+Najmul Hossain Shanto
+Shoriful Islam
+Towhid Hridoy
+Tanzid Hasan
+Rishad Hossain
+Mahmudullah
+Liton Das
+Afif Hossain
+Nasum Ahmed
+Tanzim Hasan Sakib
+
+# BD ASR misrecognitions
+shakib: Shakib
+shakeeb: Shakib
+shaakib: Shakib
+mushfiqur: Mushfiqur
+mushfik: Mushfiqur
+mushfikur: Mushfiqur
+mustafizur: Mustafizur
+mustafiz: Mustafizur
+fizz: Mustafizur
+tamim: Tamim
+tammim: Tamim
+taskin: Taskin
+tashkin: Taskin
+mehidy: Mehidy
+mehedi: Mehidy
+najmul: Najmul
+nazimul: Najmul
+shoriful: Shoriful
+shauriful: Shoriful
+towhid: Towhid
+tawhid: Towhid
+hridoy: Hridoy
+mahmudullah: Mahmudullah
+mahmoodullah: Mahmudullah
+litton: Litton
+liton: Litton
+
+# ═══════════════════════════════════════════════
+# ENGLAND
+# ═══════════════════════════════════════════════
+Jos Buttler
+Ben Stokes
+Joe Root
+Jonny Bairstow
+Sam Curran
+Jofra Archer
+Chris Woakes
+Mark Wood
+Adil Rashid
+Moeen Ali
+Liam Livingstone
+Harry Brook
+Phil Salt
+Will Jacks
+Reece Topley
+Tom Hartley
+Gus Atkinson
+Ollie Pope
+
+# ENG ASR misrecognitions
+buttler: Buttler
+butler: Buttler
+battler: Buttler
+bairstow: Bairstow
+bearstow: Bairstow
+barstow: Bairstow
+stokes: Stokes
+stoakes: Stokes
+archer: Archer
+archar: Archer
+woakes: Woakes
+wokes: Woakes
+rashid: Rashid
+rashed: Rashid
+livingstone: Livingstone
+livingston: Livingstone
+hartley: Hartley
+atkinson: Atkinson
+jofra: Jofra
+joffra: Jofra
+
+# ═══════════════════════════════════════════════
+# NEW ZEALAND
+# ═══════════════════════════════════════════════
+Kane Williamson
+Trent Boult
+Tim Southee
+Devon Conway
+Mitchell Santner
+Tom Latham
+Daryl Mitchell
+Lockie Ferguson
+Glenn Phillips
+Jimmy Neesham
+Rachin Ravindra
+Matt Henry
+Kyle Jamieson
+Ish Sodhi
+Mark Chapman
+Finn Allen
+
+# NZ ASR misrecognitions
+williamson: Williamson
+williams: Williamson
+boult: Boult
+bolt: Boult
+bault: Boult
+southee: Southee
+southey: Southee
+santner: Santner
+santer: Santner
+latham: Latham
+lathum: Latham
+ferguson: Ferguson
+farguson: Ferguson
+neesham: Neesham
+neeshum: Neesham
+ravindra: Ravindra
+jamieson: Jamieson
+jameson: Jamieson
+
+# ═══════════════════════════════════════════════
+# SOUTH AFRICA
+# ═══════════════════════════════════════════════
+Quinton de Kock
+Kagiso Rabada
+Anrich Nortje
+Aiden Markram
+Heinrich Klaasen
+Temba Bavuma
+Lungi Ngidi
+Marco Jansen
+Tristan Stubbs
+David Miller
+Rassie van der Dussen
+Tabraiz Shamsi
+Keshav Maharaj
+Gerald Coetzee
+Reeza Hendricks
+
+# SA ASR misrecognitions
+rabada: Rabada
+rabadaa: Rabada
+bharada: Rabada
+rubada: Rabada
+nortje: Nortje
+nortjay: Nortje
+nortjee: Nortje
+klaasen: Klaasen
+claasen: Klaasen
+klasen: Klaasen
+bavuma: Bavuma
+bawuma: Bavuma
+ngidi: Ngidi
+ingidi: Ngidi
+jansen: Jansen
+jensen: Jansen
+stubbs: Stubbs
+stubs: Stubbs
+coetzee: Coetzee
+koetzee: Coetzee
+maharaj: Maharaj
+shamsi: Shamsi
+de kock: de Kock
+dekock: de Kock
+markram: Markram
+markrem: Markram
+
+# ═══════════════════════════════════════════════
+# WEST INDIES
+# ═══════════════════════════════════════════════
+Nicholas Pooran
+Shimron Hetmyer
+Jason Holder
+Andre Russell
+Sunil Narine
+Rovman Powell
+Kyle Mayers
+Shai Hope
+Alzarri Joseph
+Akeal Hosein
+Gudakesh Motie
+Brandon King
+Johnson Charles
+Obed McCoy
+Romario Shepherd
+
+# WI ASR misrecognitions
+pooran: Pooran
+puran: Pooran
+poran: Pooran
+hetmyer: Hetmyer
+hetmier: Hetmyer
+heitmeyer: Hetmyer
+holder: Holder
+russell: Russell
+russel: Russell
+narine: Narine
+nareen: Narine
+powell: Powell
+pawell: Powell
+hosein: Hosein
+hussein: Hosein
+motie: Motie
+moti: Motie
+alzarri: Alzarri
+joseph: Joseph
+
+# ═══════════════════════════════════════════════
+# AFGHANISTAN
+# ═══════════════════════════════════════════════
+Rashid Khan
+Mohammad Nabi
+Mujeeb Ur Rahman
+Fazalhaq Farooqi
+Ibrahim Zadran
+Rahmanullah Gurbaz
+Naveen-ul-Haq
+Azmatullah Omarzai
+Gulbadin Naib
+Noor Ahmad
+
+# AFG ASR misrecognitions
+rashid khan: Rashid Khan
+fazalhaq: Fazalhaq
+farooqi: Farooqi
+farooki: Farooqi
+gurbaz: Gurbaz
+gurbaj: Gurbaz
+mujeeb: Mujeeb
+mujib: Mujeeb
+omarzai: Omarzai
+amarzai: Omarzai
+zadran: Zadran
+nabi: Nabi
+naveen: Naveen
+gulbadin: Gulbadin
+
+# ═══════════════════════════════════════════════
+# AUSTRALIA (expanded)
+# ═══════════════════════════════════════════════
+Pat Cummins
+Mitchell Starc
+Glenn Maxwell
+Steve Smith
+David Warner
+Travis Head
+Josh Hazlewood
+Adam Zampa
+Alex Carey
+Cameron Green
+Marnus Labuschagne
+Marcus Stoinis
+Josh Inglis
+Nathan Lyon
+Mitchell Marsh
+Jake Fraser-McGurk
+Spencer Johnson
+
+# AUS ASR misrecognitions
+cummins: Cummins
+cumins: Cummins
+starc: Starc
+stark: Starc
+hazlewood: Hazlewood
+hazelwood: Hazlewood
+zampa: Zampa
+zamba: Zampa
+labuschagne: Labuschagne
+labushane: Labuschagne
+labushagne: Labuschagne
+marnus: Marnus
+stoinis: Stoinis
+stoynis: Stoinis
+
+# ═══════════════════════════════════════════════
+# PAKISTAN (expanded)
+# ═══════════════════════════════════════════════
+Babar Azam
+Mohammad Rizwan
+Shaheen Afridi
+Naseem Shah
+Shadab Khan
+Fakhar Zaman
+Haris Rauf
+Iftikhar Ahmed
+Faheem Ashraf
+Imam-ul-Haq
+Saim Ayub
+Mohammad Nawaz
+Usama Mir
+Abrar Ahmed
+
+# PAK ASR misrecognitions
+shaheen: Shaheen
+shahean: Shaheen
+shahin: Shaheen
+naseem: Naseem
+nassim: Naseem
+nasseem: Naseem
+shadab: Shadab
+shedab: Shadab
+fakhar: Fakhar
+fakar: Fakhar
+iftikhar: Iftikhar
+iftiqar: Iftikhar
+rizwan: Rizwan
+rizvaan: Rizwan
+haris: Haris
+haaris: Haris
+rauf: Rauf
+nawaz: Nawaz
+
+# ═══════════════════════════════════════════════
+# IPL DOMESTIC PLAYERS (from QA report issues)
+# ═══════════════════════════════════════════════
+
+# --- CSK ---
+Ajinkya Rahane
+Ruturaj Gaikwad
+Shivam Dube
+Deepak Chahar
+Tushar Deshpande
+Rachin Ravindra
+rahane: Rahane
+rahanne: Rahane
+rahaane: Rahane
+ruturaj: Ruturaj
+ruturaz: Ruturaj
+gaikwad: Gaikwad
+gaekwad: Gaikwad
+dube: Dube
+dubey: Dube
+chahar: Chahar
+
+# --- SRH ---
+Abhishek Sharma
+Heinrich Klaasen
+Aiden Markram
+Bhuvneshwar Kumar
+Shahbaz Ahmed
+Akash Singh
+T Natarajan
+Rahul Tripathi
+klaasen: Klaasen
+clasen: Klaasen
+markram: Markram
+markaram: Markram
+markarem: Markram
+aiden markram: Aiden Markram
+bhuvneshwar: Bhuvneshwar
+bhuvaneshwar: Bhuvneshwar
+bhuvi: Bhuvneshwar
+shahbaz: Shahbaz
+shahbaaz: Shahbaz
+shahbaz ahmed: Shahbaz Ahmed
+shahbaz ahmad: Shahbaz Ahmed
+akash: Akash
+akash singh: Akash Singh
+natarajan: Natarajan
+tripathi: Tripathi
+
+# --- DC ---
+Rishabh Pant
+Prithvi Shaw
+Abishek Porel
+rishab: Rishabh
+rishab pant: Rishabh Pant
+rishabh pant: Rishabh Pant
+pant: Pant
+
+# --- LSG ---
+KL Rahul
+Nicholas Pooran
+Krunal Pandya
+Ayush Badoni
+Deepak Hooda
+pooran: Pooran
+puran: Pooran
+poran: Pooran
+pooraan: Pooran
+badoni: Badoni
+bishnoi: Bishnoi
+
+# --- RCB ---
+Rajat Patidar
+Dinesh Karthik
+Yash Dayal
+Karn Sharma
+patidar: Patidar
+karthik: Karthik
+kartik: Karthik
+dinesh karthik: Dinesh Karthik
+karthik sharma: Karthik Sharma
+dayal: Dayal
+
+# --- MI ---
+Ishan Kishan
+Tilak Varma
+Tim David
+Dewald Brevis
+ishan: Ishan
+kishan: Kishan
+brevis: Brevis
+
+# --- RR ---
+Sanju Samson
+Yashasvi Jaiswal
+Shimron Hetmyer
+Yuzvendra Chahal
+Riyan Parag
+Dhruv Jurel
+samson: Samson
+sanju samson: Sanju Samson
+jaiswal: Jaiswal
+jaisval: Jaiswal
+yashasvi: Yashasvi
+yashavsi: Yashasvi
+hetmyer: Hetmyer
+chahal: Chahal
+ashwin: Ashwin
+jurel: Jurel
+parag: Parag
+
+# --- GT ---
+Shubman Gill
+Wriddhiman Saha
+Rahul Tewatia
+Noor Ahmad
+Vijay Shankar
+tewatia: Tewatia
+noor ahmad: Noor Ahmad
+noor ahmed: Noor Ahmad
+shami: Shami
+
+# --- KKR ---
+Shreyas Iyer
+Andre Russell
+Sunil Narine
+Rinku Singh
+Varun Chakaravarthy
+narine: Narine
+rinku: Rinku
+chakaravarthy: Chakaravarthy
+chakravarthy: Chakravarthy
+
+# --- PBKS ---
+Kagiso Rabada
+Arshdeep Singh
+Prabhsimran Singh
+rabada: Rabada
+bharada: Rabada
+kagiso rabada: Kagiso Rabada
+
+# --- QA Report specific names ---
+Prashant Veer
+Spencer Johnson
+Shivam Mavi
+Kamboj
+Tyagi
+prashant veer: Prashant Veer
+prashant: Prashant
+spencer johnson: Spencer Johnson
+shivam mavi: Shivam Mavi
+mavi: Mavi
+kamboj: Kamboj
+kambhoj: Kamboj
+tyagi: Tyagi
+tiagi: Tyagi
+prince: Priyansh
+
+# --- Team names + Venues ---
+rcb: RCB
+csk: CSK
+lsg: LSG
+kkr: KKR
+srh: SRH
+pbks: PBKS
+wankhede: Wankhede
+wankade: Wankhede
+wankhade: Wankhede
+chinnaswamy: Chinnaswamy
+chepauk: Chepauk
+eden gardens: Eden Gardens
+
+# ═══════════════════════════════════════════════
+# IPL PLAYERS + INDIA DOMESTIC (from QA report)
+# ═══════════════════════════════════════════════
+
+# --- DC / Delhi ---
+Rishabh Pant
+Axar Patel
+Prithvi Shaw
+Abishek Porel
+Jake Fraser-McGurk
+Kuldeep Yadav
+
+# DC ASR misrecognitions
+rishab: Rishabh
+rishabh: Rishabh
+rishab pant: Rishabh Pant
+pant: Pant
+
+# --- LSG / Lucknow ---
+KL Rahul
+Nicholas Pooran
+Marcus Stoinis
+Quinton de Kock
+Krunal Pandya
+Ravi Bishnoi
+Avesh Khan
+Mohsin Khan
+Mark Wood
+Ayush Badoni
+Deepak Hooda
+Manan Vohra
+
+# LSG ASR misrecognitions
+pooran: Pooran
+puran: Pooran
+poran: Pooran
+pooraan: Pooran
+markaram: Amarkaram
+stoinis: Stoinis
+stoynis: Stoinis
+bishnoi: Bishnoi
+bishhnoi: Bishnoi
+badoni: Badoni
+
+# --- CSK / Chennai ---
+MS Dhoni
+Ruturaj Gaikwad
+Ravindra Jadeja
+Devon Conway
+Ajinkya Rahane
+Shivam Dube
+Deepak Chahar
+Tushar Deshpande
+Maheesh Theekshana
+Moeen Ali
+Rachin Ravindra
+Matheesha Pathirana
+
+# CSK ASR misrecognitions
+dhoni: Dhoni
+doni: Dhoni
+ruturaj: Ruturaj
+ruturaz: Ruturaj
+ruthuraj: Ruturaj
+gaikwad: Gaikwad
+gaikwaard: Gaikwad
+gaekwad: Gaikwad
+rahane: Rahane
+rahanne: Rahane
+rahaane: Rahane
+shivam dube: Shivam Dube
+dube: Dube
+dubey: Dube
+deepak chahar: Deepak Chahar
+chahar: Chahar
+chahaar: Chahar
+tushar: Tushar
+deshpande: Deshpande
+moeen: Moeen
+moin: Moeen
+rachin: Rachin
+
+# --- RCB / Bangalore ---
+Virat Kohli
+Faf du Plessis
+Glenn Maxwell
+Rajat Patidar
+Dinesh Karthik
+Mohammed Siraj
+Harshal Patel
+Wanindu Hasaranga
+Cameron Green
+Yash Dayal
+Karn Sharma
+
+# RCB ASR misrecognitions
+patidar: Patidar
+patidaar: Patidar
+karthik: Karthik
+kartik: Karthik
+dinesh karthik: Dinesh Karthik
+siraj: Siraj
+siray: Siraj
+siraz: Siraj
+harshal: Harshal
+harshall: Harshal
+dayal: Dayal
+dayaal: Dayal
+karn: Karn
+
+# --- MI / Mumbai ---
+Rohit Sharma
+Jasprit Bumrah
+Suryakumar Yadav
+Ishan Kishan
+Tilak Varma
+Tim David
+Hardik Pandya
+Dewald Brevis
+
+# MI ASR misrecognitions
+ishan: Ishan
+ishaan: Ishan
+kishan: Kishan
+kishaan: Kishan
+tilak: Tilak
+varma: Varma
+brevis: Brevis
+breevis: Brevis
+
+# --- GT / Gujarat ---
+Shubman Gill
+Rashid Khan
+David Miller
+Wriddhiman Saha
+Rahul Tewatia
+Vijay Shankar
+Noor Ahmad
+Mohammed Shami
+
+# GT ASR misrecognitions
+tewatia: Tewatia
+tewathia: Tewatia
+tavathia: Tewatia
+shami: Shami
+shammi: Shami
+saha: Saha
+sahaa: Saha
+noor: Noor
+noor ahmad: Noor Ahmad
+noor ahmed: Noor Ahmad
+
+# --- SRH / Hyderabad ---
+Pat Cummins
+Travis Head
+Abhishek Sharma
+Heinrich Klaasen
+Aiden Markram
+Bhuvneshwar Kumar
+Rahul Tripathi
+Shahbaz Ahmed
+Mayank Agarwal
+T Natarajan
+Akash Singh
+
+# SRH ASR misrecognitions
+klaasen: Klaasen
+clasen: Klaasen
+klassen: Klaasen
+markram: Markram
+markaram: Markram
+markarem: Markram
+aiden markram: Aiden Markram
+bhuvneshwar: Bhuvneshwar
+bhuvaneshwar: Bhuvneshwar
+bhuvneshwar kumar: Bhuvneshwar Kumar
+bhuvi: Bhuvneshwar
+shahbaz: Shahbaz
+shahbaaz: Shahbaz
+shahbaz ahmed: Shahbaz Ahmed
+shahbaz ahmad: Shahbaz Ahmed
+tripathi: Tripathi
+natarajan: Natarajan
+nataraajan: Natarajan
+akash: Akash
+akash singh: Akash Singh
+
+# --- KKR / Kolkata ---
+Shreyas Iyer
+Andre Russell
+Sunil Narine
+Venkatesh Iyer
+Nitish Rana
+Rinku Singh
+Varun Chakaravarthy
+Umesh Yadav
+Mitchell Starc
+
+# KKR ASR misrecognitions
+narine: Narine
+narain: Narine
+rinku: Rinku
+rinkoo: Rinku
+chakaravarthy: Chakaravarthy
+chakravarthy: Chakravarthy
+chakarvarty: Chakaravarthy
+
+# --- PBKS / Punjab ---
+Shikhar Dhawan
+Liam Livingstone
+Jonny Bairstow
+Sam Curran
+Arshdeep Singh
+Kagiso Rabada
+Prabhsimran Singh
+Jitesh Sharma
+
+# PBKS ASR misrecognitions
+dhawan: Dhawan
+davaan: Dhawan
+livingstone: Livingstone
+rabada: Rabada
+bharada: Rabada
+rubada: Rabada
+kagiso rabada: Kagiso Rabada
+
+# --- RR / Rajasthan ---
+Sanju Samson
+Jos Buttler
+Yashasvi Jaiswal
+Shimron Hetmyer
+Trent Boult
+Yuzvendra Chahal
+Ravichandran Ashwin
+Riyan Parag
+Sandeep Sharma
+Dhruv Jurel
+
+# RR ASR misrecognitions
+samson: Samson
+sanju samson: Sanju Samson
+sanson: Samson
+jaiswal: Jaiswal
+jaisval: Jaiswal
+jaiswall: Jaiswal
+yashasvi: Yashasvi
+yashaswi: Yashasvi
+yashavsi: Yashasvi
+hetmyer: Hetmyer
+hetmier: Hetmyer
+boult: Boult
+bolt: Boult
+chahal: Chahal
+chahaal: Chahal
+ashwin: Ashwin
+ashvin: Ashwin
+riyan: Riyan
+biyan: Riyan
+parag: Parag
+jurel: Jurel
+
+# --- Additional from QA report ---
+Prashant Veer
+Spencer Johnson
+Shivam Mavi
+Anuj Rawat
+Mayank Markande
+Kamboj
+Tyagi
+
+# QA report ASR misrecognitions
+prashant veer: Prashant Veer
+prashant: Prashant
+spencer johnson: Spencer Johnson
+spencer: Spencer
+shivam mavi: Shivam Mavi
+mavi: Mavi
+maavi: Mavi
+kamboj: Kamboj
+kambhoj: Kamboj
+tyagi: Tyagi
+tiagi: Tyagi
+
+# ═══════════════════════════════════════════════
+# TEAM NAMES + VENUES (from QA report)
+# ═══════════════════════════════════════════════
+rcb: RCB
+csk: CSK
+lsg: LSG
+kkr: KKR
+srh: SRH
+pbks: PBKS
+gt: GT
+rr: RR
+mi: MI
+dc: DC
+wankhede: Wankhede
+wankade: Wankhede
+wankhade: Wankhede
+chinnaswamy: Chinnaswamy
+chinaswamy: Chinnaswamy
+chepauk: Chepauk
+chepak: Chepauk
+eden gardens: Eden Gardens
+narendra modi: Narendra Modi
+arun jaitley: Arun Jaitley

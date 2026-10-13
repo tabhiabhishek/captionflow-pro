@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 147.0,
+    "end_sec": 150.0,
+    "video_start": 0.0,
+    "video_end": 2.738,
+    "raw_text": "सबकुछ पताल जाय",
+    "current_start": "17:39:22.914",
+    "current_end": "17:39:52.204",
+    "text": "सबकुछ पताल जाय।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.738,
+        "text": "सबकुछ पताल जाय।",
+        "char_count": 15
+      }
+    ],
+    "cea608_frame": "सबकुछ पताल जाय।"
+  },
+  "processing_ms": 175.73,
+  "sequence": 51
+}

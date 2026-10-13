@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 318.0,
+    "end_sec": 321.0,
+    "video_start": 0.0,
+    "video_end": 2.396,
+    "raw_text": "वुष्पाजी",
+    "current_start": "17:39:23.046",
+    "current_end": "17:40:04.207",
+    "text": "वुष्पाजी।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.396,
+        "text": "वुष्पाजी।",
+        "char_count": 9
+      }
+    ],
+    "cea608_frame": "वुष्पाजी।"
+  },
+  "processing_ms": 934.89,
+  "sequence": 107
+}

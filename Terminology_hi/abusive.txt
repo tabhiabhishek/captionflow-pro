@@ -1,0 +1,45 @@
+# ============================================
+# HINDI PROFANITY LIST  (paths.profanity_path)
+# One term per line. Matched case-insensitively by the profanity_filter
+# stage, which masks/drops the caption per config_hi.json profanity_filter.
+#
+# Only active when profanity_filter.enabled is true in config_hi.json.
+# Keep this list to actual broadcast-unsafe words — over-blocking silently
+# deletes legitimate captions.
+#
+# NOTE: this file sits inside terminology_folder, so DirectTerminology
+# ALSO slurps it as terminology (see the folder-collision note in the
+# handover). Harmless here because every line is a bare word, but do not
+# add "wrong -> correct" pairs to this file.
+# ============================================
+
+# --- common Hindi expletives ---
+गाली
+हरामी
+कमीना
+कमीनी
+कुत्ता
+कुत्ती
+साला
+साली
+बदमाश
+नालायक
+बेवकूफ
+गधा
+उल्लू
+मूर्ख
+पागल
+शैतान
+राक्षस
+नीच
+घटिया
+बकवास
+
+# --- transliterated forms the model may emit in Latin ---
+harami
+kamina
+kutta
+saala
+badmash
+nalayak
+bakwas

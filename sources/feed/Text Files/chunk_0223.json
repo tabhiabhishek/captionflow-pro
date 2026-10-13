@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 669.0,
+    "end_sec": 672.0,
+    "video_start": 0.74,
+    "video_end": 2.425,
+    "raw_text": "So, he will only play his own mood.",
+    "current_start": "14:04:35.095",
+    "current_end": "15:04:57.431",
+    "text": "So, he Will only play his own mood.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.74,
+        "local_end": 1.583,
+        "text": "So, he Will only play his",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.823,
+        "local_end": 2.623,
+        "text": "own mood.",
+        "char_count": 9,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "So, he Will only play his | own mood.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1407.29,
+  "sequence": 388
+}

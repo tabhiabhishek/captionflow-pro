@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 351.0,
+    "end_sec": 354.0,
+    "video_start": 0.02,
+    "video_end": 0.604,
+    "raw_text": "We know, Avinuji.",
+    "current_start": "14:04:34.993",
+    "current_end": "14:59:10.056",
+    "text": "We know, Avinuji.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.02,
+        "local_end": 0.82,
+        "text": "We know, Avinuji.",
+        "char_count": 17,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "We know, Avinuji.",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 8508.72,
+  "sequence": 282
+}

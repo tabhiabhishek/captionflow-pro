@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 801.0,
+    "end_sec": 804.0,
+    "video_start": 0.0,
+    "video_end": 1.611,
+    "raw_text": "Mmm, look at that.",
+    "current_start": "14:04:35.137",
+    "current_end": "15:05:23.962",
+    "text": "Mmm, look at that.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 1.611,
+        "text": "Mmm, look at that.",
+        "char_count": 18,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "Mmm, look at that.",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1609.83,
+  "sequence": 414
+}

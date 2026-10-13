@@ -1,0 +1,59 @@
+{
+  "segment": {
+    "start_sec": 618.0,
+    "end_sec": 621.0,
+    "video_start": 0.181,
+    "video_end": 2.919,
+    "raw_text": "I'll play a ball for you, so the team will be able to play.",
+    "current_start": "14:04:35.078",
+    "current_end": "15:04:37.338",
+    "text": "I'll play a Ball for you, so the Team Will be able to play.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.181,
+        "local_end": 1.035,
+        "text": "I'll play a Ball for you,",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.275,
+        "local_end": 2.099,
+        "text": "so the Team Will be able",
+        "char_count": 24,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.339,
+        "local_end": 3.139,
+        "text": "to play.",
+        "char_count": 8,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "I'll play a Ball for you, | so the Team Will be able | to play.",
+    "cea608_total_frames": 3,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1635.57,
+  "sequence": 371
+}

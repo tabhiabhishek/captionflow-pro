@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1845.0,
+    "end_sec": 1848.0,
+    "video_start": 0.0,
+    "video_end": 0.452,
+    "raw_text": "आहीजे",
+    "current_start": "17:39:24.138",
+    "current_end": "17:41:43.944",
+    "text": "आहीजे।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "आहीजे।",
+        "char_count": 6
+      }
+    ],
+    "cea608_frame": "आहीजे।"
+  },
+  "processing_ms": 922.86,
+  "sequence": 615
+}

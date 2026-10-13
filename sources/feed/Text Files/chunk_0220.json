@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 660.0,
+    "end_sec": 663.0,
+    "video_start": 2.154,
+    "video_end": 2.799,
+    "raw_text": "a big angle.",
+    "current_start": "14:04:35.091",
+    "current_end": "15:04:53.056",
+    "text": "A big angle.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 2.154,
+        "local_end": 2.954,
+        "text": "A big angle.",
+        "char_count": 12,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "A big angle.",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1249.8,
+  "sequence": 385
+}

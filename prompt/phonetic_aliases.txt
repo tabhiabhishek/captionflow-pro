@@ -1,0 +1,22 @@
+# ============================================================
+# PHONETIC ALIASES  (paths.phonetic_aliases_file)
+# ============================================================
+# Curated "what the model heard" -> "what it should say" mappings, applied by the
+# phonetic_correction stage BEFORE any fuzzy/metaphone guessing. This is the
+# fastest lever during a live match: add a line, save, and the running channel
+# picks it up within ~2s (terminology.auto_reload).
+#
+# FORMAT - one per line, any of these separators:
+#     misheard -> Correct Name
+#     misheard = Correct Name
+#     misheard , Correct Name
+# Matching is case-insensitive and whole-word. Lines starting with # are ignored.
+#
+# Only add entries you have actually SEEN in the [MODEL] log lines. A wrong alias
+# is applied unconditionally, so a guess here becomes a permanent mis-caption.
+#
+# EXAMPLES (commented out - uncomment and adapt as the match goes on):
+# cleargen -> Klaasen
+# jurell -> Jurel
+# soorya vanshi -> Sooryavanshi
+# maphaca -> Maphaka

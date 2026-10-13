@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 93.0,
+    "end_sec": 96.0,
+    "video_start": 0.0,
+    "video_end": 2.959,
+    "raw_text": "साच्छी आ, जोता",
+    "current_start": "17:39:22.877",
+    "current_end": "17:39:48.198",
+    "text": "साच्छी आ, जोता।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.959,
+        "text": "साच्छी आ, जोता।",
+        "char_count": 15
+      }
+    ],
+    "cea608_frame": "साच्छी आ, जोता।"
+  },
+  "processing_ms": 969.28,
+  "sequence": 32
+}

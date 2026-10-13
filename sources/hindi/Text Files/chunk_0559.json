@@ -1,0 +1,30 @@
+{
+  "segment": {
+    "start_sec": 1677.0,
+    "end_sec": 1680.0,
+    "video_start": 0.0,
+    "video_end": 1.397,
+    "raw_text": "वेशा, वे शुर्ण कि भी अजयतों",
+    "current_start": "17:39:23.996",
+    "current_end": "17:41:29.688",
+    "text": "वेशा, वे शुर्ण कि भी अजयतों।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "वेशा, वे शुर्ण कि भी",
+        "char_count": 20
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "अजयतों।",
+        "char_count": 7
+      }
+    ],
+    "cea608_frame": "वेशा, वे शुर्ण कि भी | अजयतों।"
+  },
+  "processing_ms": 893.71,
+  "sequence": 559
+}

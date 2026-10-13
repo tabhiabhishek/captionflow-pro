@@ -1,0 +1,258 @@
+# ============================================
+# BASE CRICKET TERMINOLOGY
+# # cricket_terms.txt - One term per line
+# Loaded at startup + checked every 60 seconds
+# ============================================
+
+# ----- Cricket Shots -----
+cover drive
+straight drive
+square drive
+pull shot
+hook shot
+sweep shot
+reverse sweep
+switch hit
+cut shot
+late cut
+leg glance
+helicopter shot
+nurdle
+slog
+steer
+
+# ----- Bowling Types -----
+yorker
+bouncer
+slower ball
+cutter
+in-swinger
+out-swinger
+doosra
+googly
+slider
+carrom ball
+arm ball
+flipper
+top-spinner
+off-break
+leg-break
+
+# ----- Dismissals -----
+bowled
+caught
+lbw: LBW
+leg before wicket: LBW
+leg before: LBW
+run out
+stumped
+hit wicket
+timed out
+caught behind
+edged and taken
+
+# ----- Fielding Positions -----
+slip
+gully
+point
+cover
+mid-off
+mid-on
+mid-wicket
+long-on
+long-off
+fine leg
+third man
+deep square leg
+silly mid-off
+silly mid-on
+short leg
+square leg
+extra cover
+
+# ----- Match Terms -----
+wicket
+boundary
+single
+double
+dot ball
+maiden over
+powerplay
+free hit
+no ball
+wide
+bye
+leg bye
+extras
+appeal
+review
+DRS
+umpire's call
+not out
+out
+dismissed
+innings
+over
+ball
+run
+runrate
+pitch
+seam
+field
+bowling
+batting
+
+# ----- Match Formats -----
+Test match
+ODI
+T20
+IPL
+super over
+Tata IPL
+death overs
+powerplay overs
+follow on
+declaration
+all out
+
+# ----- Commentary Phrases -----
+what a shot
+that is massive
+straight down the ground
+into the stands
+through the covers
+over the boundary
+clean strike
+timing at its best
+brilliant fielding
+spectacular catch
+
+# Player names 
+Rabada
+Suryavanshi
+MS Dhoni
+Ruturaj Gaikwad
+Devon Conway
+Ajinkya Rahane
+Shivam Dube
+Moeen Ali
+Ravindra Jadeja
+Mitchell Santner
+Deepak Chahar
+Tushar Deshpande
+Matheesha Pathirana
+Mukesh Choudhary
+Maheesh Theekshana
+Sameer Rizvi
+Nishant Sindhu
+Shaik Rasheed
+Rohit Sharma
+Ishan Kishan
+Suryakumar Yadav
+Tilak Varma
+Hardik Pandya
+Tim David
+Nehal Wadhera
+Romario Shepherd
+Jasprit Bumrah
+Gerald Coetzee
+Piyush Chawla
+Shreyas Gopal
+Akash Madhwal
+Dewald Brevis
+Virat Kohli
+Faf du Plessis
+Rajat Patidar
+Glenn Maxwell
+Cameron Green
+Dinesh Karthik
+Mahipal Lomror
+Karn Sharma
+Mohammed Siraj
+Reece Topley
+Yash Dayal
+Alzarri Joseph
+Suyash Prabhudessai
+Shreyas Iyer
+Nitish Rana
+Rinku Singh
+Andre Russell
+Sunil Narine
+Venkatesh Iyer
+Rahmanullah Gurbaz
+Phil Salt
+Varun Chakravarthy
+Mitchell Starc
+Harshit Rana
+Suyash Sharma
+Anukul Roy
+Pat Cummins
+Aiden Markram
+Rahul Tripathi
+Abhishek Sharma
+Heinrich Klaasen
+Travis Head
+Nitish Kumar Reddy
+Washington Sundar
+Bhuvneshwar Kumar
+T Natarajan
+Umran Malik
+Mayank Markande
+Rishabh Pant
+David Warner
+Prithvi Shaw
+Mitchell Marsh
+Axar Patel
+Tristan Stubbs
+Kuldeep Yadav
+Anrich Nortje
+Khaleel Ahmed
+Mukesh Kumar
+Lalit Yadav
+Jake Fraser-McGurk
+Shikhar Dhawan
+Jonny Bairstow
+Liam Livingstone
+Jitesh Sharma
+Sam Curran
+Sikandar Raza
+Shahrukh Khan
+Arshdeep Singh
+Kagiso Rabada
+Rahul Chahar
+Harpreet Brar
+Rilee Rossouw
+Sanju Samson
+Jos Buttler
+Yashasvi Jaiswal
+Riyan Parag
+Shimron Hetmyer
+Dhruv Jurel
+Ravichandran Ashwin
+Trent Boult
+Yuzvendra Chahal
+Sandeep Sharma
+Nandre Burger
+KL Rahul
+Quinton de Kock
+Marcus Stoinis
+Nicholas Pooran
+Deepak Hooda
+Krunal Pandya
+Ayush Badoni
+Ravi Bishnoi
+Mark Wood
+Mohsin Khan
+Naveen-ul-Haq
+Shubman Gill
+Sai Sudharsan
+David Miller
+Rahul Tewatia
+Rashid Khan
+Vijay Shankar
+Wriddhiman Saha
+Mohammed Shami
+Noor Ahmad
+Spencer Johnson
+Umesh Yadav
+

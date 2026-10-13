@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 393.0,
+    "end_sec": 396.0,
+    "video_start": 0.0,
+    "video_end": 2.376,
+    "raw_text": "He was a big man with his love.",
+    "current_start": "14:04:34.993",
+    "current_end": "15:01:04.951",
+    "text": "He was a big man with his love.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 1.268,
+        "text": "He was a big man with his",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.508,
+        "local_end": 2.376,
+        "text": "love.",
+        "char_count": 5,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "He was a big man with his | love.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 12484.22,
+  "sequence": 296
+}

@@ -1,0 +1,151 @@
+# ============================================
+# HINDI TERMINOLOGY — hindi_terms.txt
+# Loaded by DirectTerminology._load_from_folder()
+# Every .txt in Terminology_hi/ is read at startup + re-checked on change.
+# ============================================
+#
+# FORMAT — two kinds of line:
+#   1. Plain term      : one term per line, added as-is
+#   2. Correction pair : wrong <TAB-free separator> correct
+#
+# The loader checks separators in this order:  →   =   :   ,
+# ALWAYS USE  →  (U+2192) FOR HINDI.
+# Reason: ':' and ',' are checked too, so any Hindi line containing a comma
+# would be silently split into a bogus mapping. '→' cannot collide with
+# Devanagari text or with the danda (।).
+#
+# Keys are lowercased before matching. Devanagari has no case, so this is a
+# no-op for Hindi keys but still applies to Latin ones.
+# Lines starting with '#' and blank lines are ignored.
+# ============================================
+
+
+# ----- क्रिकेट: शॉट (shots) -----
+कवर ड्राइव
+स्ट्रेट ड्राइव
+स्क्वायर ड्राइव
+पुल शॉट
+हुक शॉट
+स्वीप शॉट
+रिवर्स स्वीप
+कट शॉट
+लेट कट
+फ्लिक
+लॉफ्टेड शॉट
+हेलिकॉप्टर शॉट
+
+# ----- क्रिकेट: गेंदबाजी (bowling) -----
+यॉर्कर
+बाउंसर
+गुगली
+दूसरा
+आउटस्विंग
+इनस्विंग
+लेग स्पिन
+ऑफ स्पिन
+लेग कटर
+ऑफ कटर
+धीमी गेंद
+नो बॉल
+वाइड बॉल
+बीमर
+
+# ----- क्रिकेट: क्षेत्ररक्षण एवं आउट (fielding / dismissals) -----
+कैच आउट
+बोल्ड
+एलबीडब्ल्यू
+रन आउट
+स्टंपिंग
+हिट विकेट
+स्लिप
+गली
+पॉइंट
+कवर
+मिड ऑफ
+मिड ऑन
+मिड विकेट
+स्क्वायर लेग
+फाइन लेग
+थर्ड मैन
+लॉन्ग ऑन
+लॉन्ग ऑफ
+डीप मिड विकेट
+
+# ----- क्रिकेट: सामान्य (general) -----
+पारी
+ओवर
+विकेट
+रन रेट
+साझेदारी
+अर्धशतक
+शतक
+दोहरा शतक
+चौका
+छक्का
+मेडन ओवर
+पावरप्ले
+फ्री हिट
+डक
+हैट्रिक
+रिव्यू
+अंपायर
+थर्ड अंपायर
+पिच
+क्रीज
+गिल्ली
+स्ट्राइक रेट
+इकॉनमी रेट
+
+# ============================================
+# ASR मिसरिकग्निशन सुधार (misrecognition fixes)
+# Format:  गलत → सही
+# The left side is what the model actually emitted; the right side is correct.
+# Harvested from the 2026-08-10 run on PRG1100997.mxf — add to this list as
+# you review more output.
+# ============================================
+
+महमानों → मेहमानों
+रिष्ते → रिश्ते
+रिष्ता → रिश्ता
+जिम्भादी → जिम्मेदारी
+जिम्मेदारी की बदे → जिम्मेदारी की बात
+अन्कुटी → अंगूठी
+अंकुटी → अंगूठी
+ससूरालवालों → ससुराल वालों
+तुरालवालों → ससुराल वालों
+बताफ → बर्ताव
+बताव → बर्ताव
+गोम → गुम
+गूम → गुम
+पैसो → पैसों
+भात → बात
+वाद → बात
+वगर → मगर
+गल्सी → गलती
+अजिसे → जैसे
+जिस्टे → जिस
+संबलेगा → संभलेगा
+समली → संभली
+वोपे → वो
+कॉमाली → कमाई
+हल्वात → हालात
+भूत → बहुत
+मुझ → मुँह
+तौनी → तो नहीं
+एसी → ऐसी
+
+# ----- खिलाड़ी नाम सुधार (player-name fixes) -----
+विरात कोहली → विराट कोहली
+कोहली → विराट कोहली
+रोहित शरमा → रोहित शर्मा
+बुमरा → जसप्रीत बुमराह
+बूमराह → जसप्रीत बुमराह
+हार्दिक पंड्या → हार्दिक पांड्या
+जडेजा → रवींद्र जडेजा
+सूर्या → सूर्यकुमार यादव
+पंत → ऋषभ पंत
+राहुल → केएल राहुल
+सिराज → मोहम्मद सिराज
+शमी → मोहम्मद शमी
+चहल → युजवेंद्र चहल
+शुभमन → शुभमन गिल

@@ -1,0 +1,101 @@
+{
+  "_version": "model_ai_v2",
+  "application": {
+    "name": "Model AI",
+    "mode": "static_compare"
+  },
+  "upload": {
+    "allowed_extensions": [
+      ".mp4",
+      ".mxf",
+      ".mov",
+      ".ts",
+      ".wav",
+      ".mp3"
+    ],
+    "max_parallel_uploads": 1,
+    "auto_process": false
+  },
+  "ffmpeg": {
+    "enabled": true,
+    "extract_audio": true,
+    "sample_rate": 16000,
+    "channels": 1,
+    "audio_format": "wav"
+  },
+  "chunk_generator": {
+    "enabled": true,
+    "save_chunks": true,
+    "reuse_chunks": true,
+    "chunk_folder": "D:\\model_ai\\sources\\static",
+    "chunk_duration": 3.0,
+    "chunk_overlap": 1.0,
+    "audio_padding": 0.5,
+    "sample_rate": 16000,
+    "parallel_generation": false
+  },
+  "dispatcher": {
+    "same_chunk_all_models": true,
+    "parallel_execution": true,
+    "wait_all_models": true,
+    "keep_chunk_order": true
+  },
+  "models": [
+    {
+      "id": "model_a",
+      "enabled": true,
+      "display_name": "modal_26_08_2026",
+      "model_path": "D:\\model_ai\\Model\\modal_26_08_2026",
+      "task": "transcribe",
+      "device": "cuda:0",
+      "beam_size": 5,
+      "temperature": 0,
+      "prompt": "",
+      "raw_output": {
+        "save": true,
+        "folder": "D:\\model_ai\\Output\\Raw",
+        "apply_processing": false
+      },
+      "processed_output": {
+        "save": true,
+        "folder": "D:\\model_ai\\Output\\Processed",
+        "apply_quick_caption_pipeline": true
+      }
+    }
+  ],
+  "quick_caption_pipeline": {
+    "enabled": true,
+    "script": "quick_captions.py",
+    "terminology_folder": "D:\\model_ai\\Terminology",
+    "prompt_folder": "D:\\model_ai\\prompt",
+    "hallucination_folder": "D:\\model_ai\\Model\\hallucination",
+    "calibration_folder": "D:\\model_ai\\Model\\calibration",
+    "_note": "ENGLISH lane only. Hindi uses quick_caption_pipeline_hi below."
+  },
+  "vad": {
+    "threshold": 0.0001,
+    "min_speech_duration": 0.3,
+    "min_silence_duration": 0.2,
+    "use_silero": true
+  },
+  "caption_monitor": {
+    "model_a": {
+      "enabled": true,
+      "source": "processed"
+    }
+  },
+  "logging": {
+    "save_chunk_logs": true,
+    "save_model_logs": true,
+    "save_pipeline_logs": true
+  },
+  "quick_caption_pipeline_hi": {
+    "_note": "HINDI lane only — must match backend/app/config_hi.json paths.",
+    "enabled": true,
+    "script": "quick_captions_hi.py",
+    "terminology_folder": "D:\\model_ai\\Terminology_hi",
+    "prompt_folder": "D:\\model_ai\\prompt_hi",
+    "hallucination_folder": "D:\\model_ai\\Model\\hallucination",
+    "calibration_folder": "D:\\model_ai\\Model\\calibration"
+  }
+}

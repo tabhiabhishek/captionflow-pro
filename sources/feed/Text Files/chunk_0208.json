@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 624.0,
+    "end_sec": 627.0,
+    "video_start": 1.57,
+    "video_end": 3.0,
+    "raw_text": "Oh, you want me so much.",
+    "current_start": "14:04:35.080",
+    "current_end": "15:04:40.245",
+    "text": "Oh, you want me so much.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 1.57,
+        "local_end": 3.0,
+        "text": "Oh, you want me so much.",
+        "char_count": 24,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "Oh, you want me so much.",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1375.41,
+  "sequence": 373
+}

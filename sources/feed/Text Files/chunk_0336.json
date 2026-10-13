@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 1008.0,
+    "end_sec": 1011.0,
+    "video_start": 0.624,
+    "video_end": 2.416,
+    "raw_text": "I'm talking about my three children.",
+    "current_start": "14:04:35.208",
+    "current_end": "15:05:40.732",
+    "text": "I'm talking about my three children.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.624,
+        "local_end": 1.529,
+        "text": "I'm talking about my three",
+        "char_count": 26,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.769,
+        "local_end": 2.569,
+        "text": "children.",
+        "char_count": 9,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "I'm talking about my three | children.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 170.18,
+  "sequence": 429
+}

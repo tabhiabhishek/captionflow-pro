@@ -1,0 +1,79 @@
+{
+  "segment": {
+    "start_sec": 465.0,
+    "end_sec": 468.0,
+    "video_start": 0.02,
+    "video_end": 2.919,
+    "raw_text": "A lot of things are very important. We keep our players safe and we're going to play a little bit",
+    "current_start": "14:04:35.025",
+    "current_end": "15:03:37.606",
+    "text": "A lot of things are very important. We keep our Players safe and we're going to play a little bit.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.02,
+        "local_end": 0.82,
+        "text": "A lot of things are very",
+        "char_count": 24,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.06,
+        "local_end": 1.86,
+        "text": "important. We keep our",
+        "char_count": 22,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.1,
+        "local_end": 2.9,
+        "text": "Players safe and we're",
+        "char_count": 22,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 3.14,
+        "local_end": 3.94,
+        "text": "going to play a little",
+        "char_count": 22,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 4.18,
+        "local_end": 4.98,
+        "text": "bit.",
+        "char_count": 4,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "A lot of things are very | important. We keep our | Players safe and we're | going to play a little | bit.",
+    "cea608_total_frames": 5,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1466.74,
+  "sequence": 320
+}

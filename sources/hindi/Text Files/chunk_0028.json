@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 84.0,
+    "end_sec": 87.0,
+    "video_start": 0.0,
+    "video_end": 2.094,
+    "raw_text": "साच्छी आ, जोता वाली माता",
+    "current_start": "17:39:22.869",
+    "current_end": "17:39:45.319",
+    "text": "साच्छी आ, जोता वाली माता।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.094,
+        "text": "साच्छी आ, जोता वाली माता।",
+        "char_count": 25
+      }
+    ],
+    "cea608_frame": "साच्छी आ, जोता वाली माता।"
+  },
+  "processing_ms": 999.59,
+  "sequence": 29
+}

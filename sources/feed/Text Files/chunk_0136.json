@@ -1,0 +1,59 @@
+{
+  "segment": {
+    "start_sec": 408.0,
+    "end_sec": 411.0,
+    "video_start": 1.107,
+    "video_end": 2.94,
+    "raw_text": "I'm just going to be a good one. Just so that my mind got into it",
+    "current_start": "14:04:35.009",
+    "current_end": "15:01:51.634",
+    "text": "I'm just going to be a good one. Just so that my mind got into it.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 1.107,
+        "local_end": 1.907,
+        "text": "I'm just going to be a",
+        "char_count": 22,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.147,
+        "local_end": 2.947,
+        "text": "good one. Just so that my",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 3.187,
+        "local_end": 3.987,
+        "text": "mind got into it.",
+        "char_count": 17,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "I'm just going to be a | good one. Just so that my | mind got into it.",
+    "cea608_total_frames": 3,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 8463.2,
+  "sequence": 301
+}

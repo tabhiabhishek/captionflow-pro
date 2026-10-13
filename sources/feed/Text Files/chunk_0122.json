@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 366.0,
+    "end_sec": 369.0,
+    "video_start": 0.403,
+    "video_end": 2.94,
+    "raw_text": "The last of the dog's leg and his foot.",
+    "current_start": "14:04:34.993",
+    "current_end": "14:59:44.400",
+    "text": "The last of the dog's leg and his foot.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.403,
+        "local_end": 1.671,
+        "text": "The last of the dog's leg",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.911,
+        "local_end": 2.94,
+        "text": "and his foot.",
+        "char_count": 13,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "The last of the dog's leg | and his foot.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 6827.75,
+  "sequence": 287
+}

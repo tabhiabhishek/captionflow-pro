@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1908.0,
+    "end_sec": 1911.0,
+    "video_start": 0.0,
+    "video_end": 0.544,
+    "raw_text": "टेडियों जाती है, आपना",
+    "current_start": "17:39:24.185",
+    "current_end": "17:41:50.023",
+    "text": "टेडियों जाती है, आपना।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "टेडियों जाती है, आपना।",
+        "char_count": 22
+      }
+    ],
+    "cea608_frame": "टेडियों जाती है, आपना।"
+  },
+  "processing_ms": 172.4,
+  "sequence": 637
+}

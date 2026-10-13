@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1326.0,
+    "end_sec": 1329.0,
+    "video_start": 0.0,
+    "video_end": 2.638,
+    "raw_text": "वांचे, पर्के, बहुत",
+    "current_start": "17:39:23.718",
+    "current_end": "17:41:01.515",
+    "text": "वांचे, पर्के, बहुत।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.638,
+        "text": "वांचे, पर्के, बहुत।",
+        "char_count": 19
+      }
+    ],
+    "cea608_frame": "वांचे, पर्के, बहुत।"
+  },
+  "processing_ms": 976.98,
+  "sequence": 442
+}

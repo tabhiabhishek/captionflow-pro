@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 456.0,
+    "end_sec": 459.0,
+    "video_start": 0.0,
+    "video_end": 1.43,
+    "raw_text": "He was left with the temple in the temple.",
+    "current_start": "14:04:35.025",
+    "current_end": "15:03:09.931",
+    "text": "He was left with the temple in.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "He was left with the",
+        "char_count": 20,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "temple in.",
+        "char_count": 10,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "He was left with the | temple in.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 10776.0,
+  "sequence": 317
+}

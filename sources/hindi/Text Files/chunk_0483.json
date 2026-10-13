@@ -1,0 +1,30 @@
+{
+  "segment": {
+    "start_sec": 1449.0,
+    "end_sec": 1452.0,
+    "video_start": 0.0,
+    "video_end": 0.946,
+    "raw_text": "क्या दुरोंके विख्षाही ने रूक आ है",
+    "current_start": "17:39:23.821",
+    "current_end": "17:41:13.035",
+    "text": "क्या दुरोंके विख्षाही ने रूक आ है।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "क्या दुरोंके विख्षाही ने",
+        "char_count": 24
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "रूक आ है।",
+        "char_count": 9
+      }
+    ],
+    "cea608_frame": "क्या दुरोंके विख्षाही ने | रूक आ है।"
+  },
+  "processing_ms": 179.5,
+  "sequence": 484
+}

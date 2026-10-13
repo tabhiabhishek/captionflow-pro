@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 378.0,
+    "end_sec": 381.0,
+    "video_start": 0.544,
+    "video_end": 1.832,
+    "raw_text": "If you know where work, they do it.",
+    "current_start": "14:04:34.993",
+    "current_end": "15:00:16.989",
+    "text": "If you know where work, they do it.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.544,
+        "local_end": 1.344,
+        "text": "If you know where work,",
+        "char_count": 23,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.584,
+        "local_end": 2.384,
+        "text": "they do it.",
+        "char_count": 11,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "If you know where work, | they do it.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 12174.34,
+  "sequence": 291
+}

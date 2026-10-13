@@ -1,0 +1,37 @@
+# ============================================================
+# HINDI PHONETIC ALIASES  (paths.phonetic_aliases_file)
+# ============================================================
+# "What the model heard" -> "what it should say", applied by the
+# phonetic_correction stage BEFORE any fuzzy/metaphone guessing.
+#
+# FORMAT - one per line:
+#     misheard -> Correct
+#     misheard = Correct
+#
+# Live-editable: save the file and the running Hindi channel picks it up
+# within ~2s (direct_terminology.auto_reload = true).
+#
+# NOTE: this stage only runs when pipeline.enable_phonetic is true in
+# config_hi.json. Metaphone/soundex are Latin-alphabet algorithms and do
+# nothing useful for Devanagari, so these EXPLICIT pairs are the whole value
+# here — keep the list curated rather than relying on fuzzy matching.
+# ============================================================
+
+# ----- transliterated names the model renders in Latin -----
+virat kohli -> विराट कोहली
+rohit sharma -> रोहित शर्मा
+bumrah -> जसप्रीत बुमराह
+jadeja -> रवींद्र जडेजा
+pant -> ऋषभ पंत
+gill -> शुभमन गिल
+hardik -> हार्दिक पांड्या
+siraj -> मोहम्मद सिराज
+shami -> मोहम्मद शमी
+chahal -> युजवेंद्र चहल
+
+# ----- Devanagari near-misses (nukta / matra confusions) -----
+कोहली जी -> विराट कोहली
+रोहीत -> रोहित
+जसप्रित -> जसप्रीत
+ऋषब -> ऋषभ
+शुभमान -> शुभमन

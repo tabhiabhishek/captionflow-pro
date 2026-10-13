@@ -1,0 +1,30 @@
+{
+  "segment": {
+    "start_sec": 1341.0,
+    "end_sec": 1344.0,
+    "video_start": 0.0,
+    "video_end": 2.425,
+    "raw_text": "आइ, हार्ते बिली जो कुने वह एक पॉट",
+    "current_start": "17:39:23.728",
+    "current_end": "17:41:04.431",
+    "text": "आइ, हार्ते बिली जो कुने वह एक पॉट।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 1.272,
+        "text": "आइ, हार्ते बिली जो कुने वह",
+        "char_count": 26
+      },
+      {
+        "local_start": 1.512,
+        "local_end": 2.425,
+        "text": "एक पॉट।",
+        "char_count": 7
+      }
+    ],
+    "cea608_frame": "आइ, हार्ते बिली जो कुने वह | एक पॉट।"
+  },
+  "processing_ms": 1293.51,
+  "sequence": 447
+}

@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1839.0,
+    "end_sec": 1842.0,
+    "video_start": 0.0,
+    "video_end": 2.779,
+    "raw_text": "साच्य आ, जोता वाली",
+    "current_start": "17:39:24.136",
+    "current_end": "17:41:42.182",
+    "text": "साच्य आ, जोता वाली।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.779,
+        "text": "साच्य आ, जोता वाली।",
+        "char_count": 19
+      }
+    ],
+    "cea608_frame": "साच्य आ, जोता वाली।"
+  },
+  "processing_ms": 1061.04,
+  "sequence": 613
+}

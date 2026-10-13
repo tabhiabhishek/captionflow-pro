@@ -1,0 +1,59 @@
+{
+  "segment": {
+    "start_sec": 426.0,
+    "end_sec": 429.0,
+    "video_start": 0.081,
+    "video_end": 2.94,
+    "raw_text": "What's the matter? What do you mean by this? What is it about your mind?",
+    "current_start": "14:04:35.009",
+    "current_end": "15:02:35.947",
+    "text": "What's the matter? What do you mean by this? What is it about your mind?",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.081,
+        "local_end": 0.903,
+        "text": "What's the matter? What do",
+        "char_count": 26,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.143,
+        "local_end": 1.966,
+        "text": "you mean by this? What is",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.206,
+        "local_end": 3.006,
+        "text": "it about your mind?",
+        "char_count": 19,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "What's the matter? What do | you mean by this? What is | it about your mind?",
+    "cea608_total_frames": 3,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 13124.83,
+  "sequence": 307
+}

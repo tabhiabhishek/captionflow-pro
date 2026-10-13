@@ -1,0 +1,18 @@
+{
+  "_note": "Decode-level hallucination controls passed DIRECTLY to the Whisper model at inference (faster-whisper / transformers). Tighten these to suppress hallucinations at the source instead of only post-filtering.",
+  "log_prob_threshold": -1.0,
+  "no_speech_threshold": 0.6,
+  "compression_ratio_threshold": 2.4,
+  "condition_on_previous_text": false,
+  "hallucination_silence_threshold": 0.5,
+  "no_repeat_ngram_size": 3,
+  "repetition_penalty": 1.2,
+  "temperature": 0.0,
+  "_hints": {
+    "log_prob_threshold": "Raise toward 0 (e.g. -0.5) to DROP more low-confidence (hallucinated) segments.",
+    "no_speech_threshold": "Lower (e.g. 0.4) to treat more audio as no-speech and skip it.",
+    "compression_ratio_threshold": "Lower (e.g. 2.0) to catch more repetitive hallucinations.",
+    "condition_on_previous_text": "false stops hallucinations from propagating across chunks.",
+    "hallucination_silence_threshold": "faster-whisper: skip silence longer than this (s) when a hallucination is suspected."
+  }
+}

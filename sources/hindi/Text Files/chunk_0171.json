@@ -1,0 +1,17 @@
+{
+  "segment": {
+    "start_sec": 513.0,
+    "end_sec": 516.0,
+    "video_start": 0.0,
+    "video_end": 3.0,
+    "raw_text": "",
+    "current_start": "17:39:23.164",
+    "current_end": "17:40:14.444",
+    "text": "",
+    "success": false,
+    "cea608_lines": [],
+    "cea608_frame": ""
+  },
+  "processing_ms": 159.61,
+  "sequence": 171
+}

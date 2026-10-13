@@ -1,0 +1,30 @@
+{
+  "segment": {
+    "start_sec": 1344.0,
+    "end_sec": 1347.0,
+    "video_start": 0.0,
+    "video_end": 1.349,
+    "raw_text": "वेशा, वे शाकिनी एत्यों कर दूट",
+    "current_start": "17:39:23.732",
+    "current_end": "17:41:05.323",
+    "text": "वेशा, वे शाकिनी एत्यों कर दूट।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "वेशा, वे शाकिनी एत्यों कर",
+        "char_count": 25
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "दूट।",
+        "char_count": 4
+      }
+    ],
+    "cea608_frame": "वेशा, वे शाकिनी एत्यों कर | दूट।"
+  },
+  "processing_ms": 890.16,
+  "sequence": 448
+}

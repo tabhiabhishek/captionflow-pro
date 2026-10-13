@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1854.0,
+    "end_sec": 1857.0,
+    "video_start": 0.0,
+    "video_end": 3.0,
+    "raw_text": "माइ जी, माता",
+    "current_start": "17:39:24.138",
+    "current_end": "17:41:46.093",
+    "text": "माइ जी, माता।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 3.0,
+        "text": "माइ जी, माता।",
+        "char_count": 13
+      }
+    ],
+    "cea608_frame": "माइ जी, माता।"
+  },
+  "processing_ms": 157.58,
+  "sequence": 619
+}

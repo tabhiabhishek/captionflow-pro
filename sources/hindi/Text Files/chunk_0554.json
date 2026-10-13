@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1662.0,
+    "end_sec": 1665.0,
+    "video_start": 0.0,
+    "video_end": 0.785,
+    "raw_text": "टेडियों की देवार, जै",
+    "current_start": "17:39:23.981",
+    "current_end": "17:41:26.160",
+    "text": "टेडियों की देवार, जै।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "टेडियों की देवार, जै।",
+        "char_count": 21
+      }
+    ],
+    "cea608_frame": "टेडियों की देवार, जै।"
+  },
+  "processing_ms": 165.96,
+  "sequence": 555
+}

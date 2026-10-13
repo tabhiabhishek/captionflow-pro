@@ -1,0 +1,156 @@
+# ============================================
+# PLAYER NAMES - MATCH SPECIFIC
+# UI updates this file before each match
+# These are treated as player names (capitalized)
+# Priority: HIGH
+# ============================================
+
+Eden Gardens, Kolkata
+
+On-field Umpires
+Swaroopanand Kannur
+Khalid Saiyed
+Third Umpire
+Mohit Krishnadas
+KKR Players:
+Ajinkya Rahane
+Shreyas Iyer
+Sunil Narine
+Rinku Singh
+Varun Chakaravarthy
+Finn Allen
+Andre Russell
+Ramandeep Singh
+Anrich Nortje
+Manish Pandey
+Rahmanullah Gurbaz
+Anukul Roy
+Cameron Green
+KKR Impact Players
+Kartik Tyagi
+Vaibhav Arora
+Angkrish Raghuvanshi
+Saurabh Dubey
+MI 
+Hardik Pandya
+Jasprit Bumrah
+Suryakumar Yadav
+Tilak Varma
+Ryan Rickelton
+Trent Boult
+Naman Dhir
+Gerald Coetzee
+Sherfane Rutherford
+Quinton de Kock
+Robin Minz
+Karn Sharma
+MI Impact Players:
+Rohit Sharma
+Shardul Thakur
+Nehal Wadhera
+Ashwani Kumar
+
+Kolkata Knight Riders
+Mumbai Indians
+# Match: IND_vs_AUS_T20_2025
+# Cricket player name corrections
+bharada: Rabada
+rubada: Rabada
+biyan: Riyan
+gashasvi: Yashasvi
+siray: Siraj
+kohli: Kohli
+mumrah: Bumrah
+abhishek sharman: Abhishek Sharma
+sharman: Sharma
+bishak sharma: Abhishek Sharma
+long yn kia i: Lungi Ngidi
+long yn kiya i: Lungi Ngidi
+lungi ngidi: Lungi Ngidi
+Axar Patel
+Ceat Tyre 
+
+# ----- India Squad -----
+Rohit Sharma
+Virat Kohli
+Abhishek Sharma
+KL Rahul
+Shubman Gill
+Hardik Pandya
+Ravindra Jadeja
+Axar Patel
+Jasprit Bumrah
+Mohammed Shami
+Mohammed Siraj
+Kuldeep Yadav
+Ishan Kishan
+Suryakumar Yadav
+Rishabh Pant
+Shreyas Iyer
+Yuzvendra Chahal
+Arshdeep Singh
+Prasidh Krishna
+Tilak Varma
+Ruturaj Gaikwad
+Ishan Kishan
+Suryakumar Yadav
+Abhishek Sharma
+Tilak Varma
+Shivam Dube
+Rinku Singh
+Hardik Pandya
+Axar Patel
+Arshdeep Singh
+Varun Chakaravarthy
+Mohammed Siraj
+Jasprit Bumrah
+Kuldeep Yadav
+Sanju Samson
+Washington Sundar
+Gautam Gambhir
+Ryan ten Doeschate
+T Dilip
+Morne Morkel
+Sitanshu Kotak
+
+# ----- Pakistan Squad -----
+Sahibzada Farhan
+Saim Ayub
+Salman Ali Agha
+Babar Azam
+Usman Khan
+Khawaja Nafay
+Shadab Khan
+Mohammad Nawaz
+Faheem Ashraf
+Salman Mirza
+Usman Tariq
+Fakhar Zaman
+Naseem Shah
+Shaheen Afridi
+Abrar Ahmed
+Mike Hesson
+Azhar Mahmood
+Shane McDermott
+Hanif Malik
+
+
+# ----- Key Players to Highlight -----
+Virat Kohli
+Rohit Sharma
+Jasprit Bumrah
+Glenn Maxwell
+Pat Cummins
+Steve Smith
+
+# Match Officials
+Kumar Dharmasena
+Richard Illingworth
+Richie Richardson
+
+# Commentators (may be mentioned by name)
+Harsha Bhogle
+Sunil Gavaskar
+Rameez Raja
+Matthew Hayden
+Washim Akram

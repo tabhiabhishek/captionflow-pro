@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1848.0,
+    "end_sec": 1851.0,
+    "video_start": 0.0,
+    "video_end": 2.98,
+    "raw_text": "साट",
+    "current_start": "17:39:24.138",
+    "current_end": "17:41:45.038",
+    "text": "साट।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.98,
+        "text": "साट।",
+        "char_count": 4
+      }
+    ],
+    "cea608_frame": "साट।"
+  },
+  "processing_ms": 1093.53,
+  "sequence": 616
+}

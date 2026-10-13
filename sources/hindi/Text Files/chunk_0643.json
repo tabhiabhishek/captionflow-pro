@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1929.0,
+    "end_sec": 1932.0,
+    "video_start": 0.0,
+    "video_end": 0.383,
+    "raw_text": "येल, जखिया.",
+    "current_start": "17:39:24.204",
+    "current_end": "17:41:54.095",
+    "text": "येल, जखिया.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "येल, जखिया.",
+        "char_count": 11
+      }
+    ],
+    "cea608_frame": "येल, जखिया."
+  },
+  "processing_ms": 160.38,
+  "sequence": 644
+}

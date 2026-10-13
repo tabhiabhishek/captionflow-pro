@@ -1,0 +1,69 @@
+{
+  "segment": {
+    "start_sec": 894.0,
+    "end_sec": 897.0,
+    "video_start": 0.0,
+    "video_end": 2.96,
+    "raw_text": "I think the guy is getting light, he's not taking a ball and that one of his balls.",
+    "current_start": "14:04:35.169",
+    "current_end": "15:05:38.936",
+    "text": "I think the guy is getting light, he's not Tracking a Ball and that one of his balls.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "I think the guy is getting",
+        "char_count": 26,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "light, he's not Tracking a",
+        "char_count": 26,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.08,
+        "local_end": 2.88,
+        "text": "Ball and that one of his",
+        "char_count": 24,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 3.12,
+        "local_end": 3.92,
+        "text": "balls.",
+        "char_count": 6,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "I think the guy is getting | light, he's not Tracking a | Ball and that one of his | balls.",
+    "cea608_total_frames": 4,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1782.09,
+  "sequence": 426
+}

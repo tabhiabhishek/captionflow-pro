@@ -1,0 +1,69 @@
+{
+  "segment": {
+    "start_sec": 402.0,
+    "end_sec": 405.0,
+    "video_start": 0.0,
+    "video_end": 1.893,
+    "raw_text": "We will go out and get away. Just because he's not going to be in love with his love",
+    "current_start": "14:04:35.009",
+    "current_end": "15:01:29.835",
+    "text": "We Will go Out and get away. Just because he's not going to be in love with his love.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "We Will go Out and get",
+        "char_count": 22,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "away. Just because he's",
+        "char_count": 23,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.08,
+        "local_end": 2.88,
+        "text": "not going to be in love",
+        "char_count": 23,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 3.12,
+        "local_end": 3.92,
+        "text": "with his love.",
+        "char_count": 14,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "We Will go Out and get | away. Just because he's | not going to be in love | with his love.",
+    "cea608_total_frames": 4,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 10066.93,
+  "sequence": 299
+}

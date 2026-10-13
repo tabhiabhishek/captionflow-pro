@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 522.0,
+    "end_sec": 525.0,
+    "video_start": 0.161,
+    "video_end": 1.43,
+    "raw_text": "We are still going to be a good one.",
+    "current_start": "14:04:35.040",
+    "current_end": "15:03:59.062",
+    "text": "We are still going to be a good one.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.161,
+        "local_end": 0.961,
+        "text": "We are still going to be a",
+        "char_count": 26,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.201,
+        "local_end": 2.001,
+        "text": "good one.",
+        "char_count": 9,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "We are still going to be a | good one.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1570.1,
+  "sequence": 339
+}

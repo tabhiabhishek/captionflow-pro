@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 222.0,
+    "end_sec": 225.0,
+    "video_start": 0.0,
+    "video_end": 3.0,
+    "raw_text": "गुच्छिमान जैका",
+    "current_start": "17:39:22.977",
+    "current_end": "17:39:57.220",
+    "text": "गुच्छिमान जैका।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 3.0,
+        "text": "गुच्छिमान जैका।",
+        "char_count": 15
+      }
+    ],
+    "cea608_frame": "गुच्छिमान जैका।"
+  },
+  "processing_ms": 178.07,
+  "sequence": 76
+}

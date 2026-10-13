@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 1332.0,
+    "end_sec": 1335.0,
+    "video_start": 0.765,
+    "video_end": 2.295,
+    "raw_text": "I'm so very good, such a Thai child.",
+    "current_start": "14:04:35.339",
+    "current_end": "15:06:17.806",
+    "text": "I'm so very good, such a Thai child.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.765,
+        "local_end": 1.565,
+        "text": "I'm so very good, such a",
+        "char_count": 24,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.805,
+        "local_end": 2.605,
+        "text": "Thai child.",
+        "char_count": 11,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "I'm so very good, such a | Thai child.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 173.68,
+  "sequence": 495
+}

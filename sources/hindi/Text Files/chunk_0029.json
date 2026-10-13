@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 87.0,
+    "end_sec": 90.0,
+    "video_start": 0.0,
+    "video_end": 2.416,
+    "raw_text": "तेरी सदाहिय जै",
+    "current_start": "17:39:22.871",
+    "current_end": "17:39:46.194",
+    "text": "तेरी सदाहिय जै।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.416,
+        "text": "तेरी सदाहिय जै।",
+        "char_count": 15
+      }
+    ],
+    "cea608_frame": "तेरी सदाहिय जै।"
+  },
+  "processing_ms": 874.96,
+  "sequence": 30
+}

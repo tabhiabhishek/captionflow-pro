@@ -1,0 +1,30 @@
+{
+  "segment": {
+    "start_sec": 1923.0,
+    "end_sec": 1926.0,
+    "video_start": 0.0,
+    "video_end": 1.289,
+    "raw_text": "वेरी जिन्दें को, हमे शाहते हैं",
+    "current_start": "17:39:24.202",
+    "current_end": "17:41:53.038",
+    "text": "वेरी जिन्दें को, हमे शाहते हैं।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "वेरी जिन्दें को, हमे शाहते",
+        "char_count": 26
+      },
+      {
+        "local_start": 1.04,
+        "local_end": 1.84,
+        "text": "हैं।",
+        "char_count": 4
+      }
+    ],
+    "cea608_frame": "वेरी जिन्दें को, हमे शाहते | हैं।"
+  },
+  "processing_ms": 165.7,
+  "sequence": 642
+}

@@ -1,0 +1,15 @@
+# Speechmatics Batch API (import root: speechmatics.batch) — pinned to the
+# version this client was written and verified against.
+speechmatics-batch>=0.5.0,<1.0
+
+python-dotenv>=1.0.0
+
+# Local Hindi->English translation (Helsinki-NLP/opus-mt-hi-en, ~300 MB).
+# Drop these two lines if you only ever run with TRANSLATION_BACKEND=none.
+transformers>=4.40.0
+torch>=2.0.0
+sentencepiece>=0.1.99          # MarianMT tokenizer requires this
+sacremoses>=0.1.1              # silences the Marian tokenizer warning
+
+# tests
+pytest>=8.0.0

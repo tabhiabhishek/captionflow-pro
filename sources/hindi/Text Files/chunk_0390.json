@@ -1,0 +1,30 @@
+{
+  "segment": {
+    "start_sec": 1170.0,
+    "end_sec": 1173.0,
+    "video_start": 0.0,
+    "video_end": 2.295,
+    "raw_text": "दुकार की माझे, जोटे हैं लोकल नियो",
+    "current_start": "17:39:23.606",
+    "current_end": "17:40:51.132",
+    "text": "दुकार की माझे, जोटे हैं लोकल नियो।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 1.167,
+        "text": "दुकार की माझे, जोटे हैं",
+        "char_count": 23
+      },
+      {
+        "local_start": 1.407,
+        "local_end": 2.295,
+        "text": "लोकल नियो।",
+        "char_count": 10
+      }
+    ],
+    "cea608_frame": "दुकार की माझे, जोटे हैं | लोकल नियो।"
+  },
+  "processing_ms": 172.51,
+  "sequence": 391
+}

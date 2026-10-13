@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1920.0,
+    "end_sec": 1923.0,
+    "video_start": 0.0,
+    "video_end": 2.658,
+    "raw_text": "आपाहिना, हो जैसे लुक्त",
+    "current_start": "17:39:24.198",
+    "current_end": "17:41:52.871",
+    "text": "आपाहिना, हो जैसे लुक्त।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.658,
+        "text": "आपाहिना, हो जैसे लुक्त।",
+        "char_count": 23
+      }
+    ],
+    "cea608_frame": "आपाहिना, हो जैसे लुक्त।"
+  },
+  "processing_ms": 1343.27,
+  "sequence": 640
+}

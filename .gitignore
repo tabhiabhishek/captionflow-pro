@@ -1,0 +1,58 @@
+# ---------- CaptionFlow Pro ----------
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+
+# Large media (GitHub rejects files > 100 MB)
+*.ts
+!frontend/**/*.ts
+*.mp4
+*.mkv
+*.wav
+*.mp3
+
+# Model weights (~6 GB) — download separately
+Model/whisperx_large_v3/
+Model/modal_*/
+Model/logs/
+Model/logs_hi/
+_archive_models/
+
+# Runtime output / logs / uploads
+Output/
+logs/
+backend/logs/
+uploads/
+backend/uploads/
+*.log
+
+# Backups & local files
+*.bak*
+vlc-help.txt
+graphify-out/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Proprietary — kept private (not published)
+backend/app/quick_captions.py
+backend/app/quick_captions_wrapper.py
+backend/app/static_processing.py
+backend/pipelines/
+backend/app/asr_backends/

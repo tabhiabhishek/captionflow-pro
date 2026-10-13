@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1680.0,
+    "end_sec": 1683.0,
+    "video_start": 0.0,
+    "video_end": 2.013,
+    "raw_text": "हाख आला",
+    "current_start": "17:39:23.996",
+    "current_end": "17:41:29.851",
+    "text": "हाख आला।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.013,
+        "text": "हाख आला।",
+        "char_count": 8
+      }
+    ],
+    "cea608_frame": "हाख आला।"
+  },
+  "processing_ms": 161.34,
+  "sequence": 561
+}

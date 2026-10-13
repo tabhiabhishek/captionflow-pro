@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 474.0,
+    "end_sec": 477.0,
+    "video_start": 0.121,
+    "video_end": 1.168,
+    "raw_text": "What did you do, Angutty?",
+    "current_start": "14:04:35.025",
+    "current_end": "15:03:42.431",
+    "text": "What did you do, Angutty?",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.121,
+        "local_end": 1.168,
+        "text": "What did you do, Angutty?",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "What did you do, Angutty?",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1559.44,
+  "sequence": 323
+}

@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 675.0,
+    "end_sec": 678.0,
+    "video_start": 2.094,
+    "video_end": 2.94,
+    "raw_text": "Are you here?",
+    "current_start": "14:04:35.096",
+    "current_end": "15:05:00.197",
+    "text": "Are you here?",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 2.094,
+        "local_end": 2.94,
+        "text": "Are you here?",
+        "char_count": 13,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "Are you here?",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1358.72,
+  "sequence": 390
+}

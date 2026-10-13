@@ -1,0 +1,61 @@
+# ============================================
+# MATCH-SPECIFIC TERMINOLOGY
+# UI updates this file before each match
+# Priority: HIGHEST (loaded first)
+# ============================================
+
+# Match: IND_vs_AUS_T20_2025
+# Uploaded: 2025-01-15T10:30:00Z
+# Venue: Mumbai
+# Series: T20 World Cup
+
+# ----- Tournament Specific Terms -----
+T20 World Cup
+Super 12
+Semi Final
+ICC
+Final
+Player of the Match
+Player of the Series
+
+# ----- Team Specific Terms -----
+Team India
+Team Australia
+Bleed Blue
+Men in Blue
+Kangaroos
+
+# ----- Special Shots (Match Specific) -----
+maximum
+sixes
+boundary line
+rope
+crowd goes wild
+standing ovation
+
+# ----- Umpire Names (This Match) -----
+Richard Kettleborough
+Kumar Dharmasena
+Joel Wilson
+Richard Illingworth
+
+# ----- Commentator Names (This Match) -----
+Harsha Bhogle
+Ian Smith
+Ricky Ponting
+Sunil Gavaskar
+
+# ----- Sponsor Terms (This Match) -----
+Dream11
+Aramco
+MRF
+Paytm
+BYJU'S
+
+# ----- Technology Terms (This Match) -----
+Snickometer
+UltraEdge
+Ball Tracking
+Hawk Eye
+Spider Cam
+Stump Camera

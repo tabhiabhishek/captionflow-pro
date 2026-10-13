@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1749.0,
+    "end_sec": 1752.0,
+    "video_start": 0.0,
+    "video_end": 3.0,
+    "raw_text": "विमजयतु, मुछयतू.",
+    "current_start": "17:39:24.072",
+    "current_end": "17:41:35.341",
+    "text": "विमजयतु, मुछयतू.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 3.0,
+        "text": "विमजयतु, मुछयतू.",
+        "char_count": 16
+      }
+    ],
+    "cea608_frame": "विमजयतु, मुछयतू."
+  },
+  "processing_ms": 157.58,
+  "sequence": 584
+}

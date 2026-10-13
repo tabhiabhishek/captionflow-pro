@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1446.0,
+    "end_sec": 1449.0,
+    "video_start": 0.0,
+    "video_end": 2.718,
+    "raw_text": "आपना",
+    "current_start": "17:39:23.821",
+    "current_end": "17:41:12.854",
+    "text": "आपना।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.718,
+        "text": "आपना।",
+        "char_count": 5
+      }
+    ],
+    "cea608_frame": "आपना।"
+  },
+  "processing_ms": 1256.14,
+  "sequence": 482
+}

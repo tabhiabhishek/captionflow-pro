@@ -1,0 +1,27 @@
+{
+  "default_chunk_size": 3,
+  "silence_threshold": 0.5,
+  "prompt": "",
+  "theme": "dark",
+  "model_folder": "D:/model_ai/Model",
+  "single_model_folder": "D:/model_ai/Model",
+  "feeds": [
+    {
+      "id": 1,
+      "url": "udp://@236.1.1.1:6004",
+      "model": "modal_26_08_2026",
+      "model_path": "D:/model_ai/Model/modal_26_08_2026",
+      "prompt": "Sports commentary",
+      "chunk_size": 3
+    },
+    {
+      "id": 2,
+      "url": "udp://@236.1.1.1:6004",
+      "model": "modal_26_08_2026",
+      "model_path": "D:/model_ai/Model/modal_26_08_2026",
+      "prompt": "",
+      "chunk_size": 3
+    }
+  ],
+  "models": []
+}

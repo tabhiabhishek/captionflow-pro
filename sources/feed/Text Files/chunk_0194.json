@@ -1,0 +1,59 @@
+{
+  "segment": {
+    "start_sec": 582.0,
+    "end_sec": 585.0,
+    "video_start": 0.06,
+    "video_end": 2.94,
+    "raw_text": "and we're going to go for IT. We've been bowling with them",
+    "current_start": "14:04:35.062",
+    "current_end": "15:04:17.870",
+    "text": "And we're going to go for IT. We've been Bowling with them.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.06,
+        "local_end": 0.968,
+        "text": "And we're going to go for",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.208,
+        "local_end": 2.051,
+        "text": "IT. We've been Bowling",
+        "char_count": 22,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 2.291,
+        "local_end": 3.091,
+        "text": "with them.",
+        "char_count": 10,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "And we're going to go for | IT. We've been Bowling | with them.",
+    "cea608_total_frames": 3,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 183.47,
+  "sequence": 360
+}

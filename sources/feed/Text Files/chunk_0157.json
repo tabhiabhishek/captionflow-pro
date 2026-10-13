@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 471.0,
+    "end_sec": 474.0,
+    "video_start": 0.282,
+    "video_end": 2.336,
+    "raw_text": "Satsurali, don't be a bit of trouble.",
+    "current_start": "14:04:35.025",
+    "current_end": "15:03:40.840",
+    "text": "Satsurali, don't be a bit of trouble.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.282,
+        "local_end": 1.319,
+        "text": "Satsurali, don't be a bit",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.559,
+        "local_end": 2.359,
+        "text": "of trouble.",
+        "char_count": 11,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "Satsurali, don't be a bit | of trouble.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1544.8,
+  "sequence": 322
+}

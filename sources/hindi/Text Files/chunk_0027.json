@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 81.0,
+    "end_sec": 84.0,
+    "video_start": 0.0,
+    "video_end": 2.557,
+    "raw_text": "लब्यू",
+    "current_start": "17:39:22.868",
+    "current_end": "17:39:44.319",
+    "text": "लब्यू।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.557,
+        "text": "लब्यू।",
+        "char_count": 6
+      }
+    ],
+    "cea608_frame": "लब्यू।"
+  },
+  "processing_ms": 1168.55,
+  "sequence": 28
+}

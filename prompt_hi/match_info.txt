@@ -1,0 +1,56 @@
+# ============================================
+# HINDI MATCH INFO  (paths.prompt_path)
+# Parsed by _parse_match_info(). Recognised section headers:
+#   match_info:  commentators:  umpires:  third_umpire:
+#   teams:       player_names:  player_fixes:
+#
+# Inside match_info:   key: value
+# Inside list sections: one "- name" per line
+# Inside player_fixes: "wrong -> Correct"
+#
+# Only read when config_hi.json has match_info.source = "file" or "both".
+# With source = "inline" this file is IGNORED entirely.
+#
+# Kept in prompt_hi/ (NOT Terminology_hi/) on purpose: DirectTerminology
+# slurps every .txt in the terminology folder and splits on ':', which would
+# turn each "key: value" line below into a bogus term replacement.
+# ============================================
+
+match_info:
+series: इंडियन प्रीमियर लीग 2026
+match: सनराइजर्स हैदराबाद बनाम राजस्थान रॉयल्स
+match_number: आईपीएल 2026 मैच
+venue: महाराजा यादविंद्र सिंह इंटरनेशनल क्रिकेट स्टेडियम, मुल्लांपुर
+
+commentators:
+- आकाश चोपड़ा
+- संजय मांजरेकर
+- हर्षा भोगले
+- इरफान पठान
+
+umpires:
+- एड्रियन होल्डस्टॉक
+- उल्हास गांधे
+
+third_umpire:
+- रोहन पंडित
+
+player_names:
+- विराट कोहली
+- रोहित शर्मा
+- शुभमन गिल
+- जसप्रीत बुमराह
+- हार्दिक पांड्या
+- रवींद्र जडेजा
+- सूर्यकुमार यादव
+- ऋषभ पंत
+- केएल राहुल
+- मोहम्मद सिराज
+- मोहम्मद शमी
+- युजवेंद्र चहल
+
+player_fixes:
+- कोहली -> विराट कोहली
+- बुमरा -> जसप्रीत बुमराह
+- रोहित शरमा -> रोहित शर्मा
+- हार्दिक पंड्या -> हार्दिक पांड्या

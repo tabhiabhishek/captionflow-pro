@@ -1,0 +1,24 @@
+# Model AI — backend dependencies
+#
+# NOTE: the GPU stack on this machine is already installed and must NOT be
+# reinstalled by pip (doing so pulls a CPU-only torch wheel and both feeds fall
+# back to CPU). run.py re-execs into C:\vaakai\venv, which provides:
+#
+#   torch 2.6.0+cu124   (CUDA 12.4)
+#   transformers
+#   whisperx 3.3.1
+#   faster-whisper / ctranslate2
+#
+# Install only the API-layer deps below into that same venv:
+#   C:\vaakai\venv\Scripts\python.exe -m pip install -r requirements.txt
+
+fastapi
+uvicorn[standard]
+python-multipart      # UploadFile / multipart form posts
+websockets            # ws transport for uvicorn
+
+numpy
+scipy                 # resampling in the chunk pipeline
+psutil                # system stats panel
+pynvml                # GPU telemetry in diagnostics
+rapidfuzz             # fuzzy terminology correction in TextProcessor

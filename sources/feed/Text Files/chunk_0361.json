@@ -1,0 +1,39 @@
+{
+  "segment": {
+    "start_sec": 1083.0,
+    "end_sec": 1086.0,
+    "video_start": 0.0,
+    "video_end": 2.255,
+    "raw_text": "- Two! - I'm going to work.",
+    "current_start": "14:04:35.259",
+    "current_end": "15:05:54.935",
+    "text": "- Two! I'm going to work.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 2.255,
+        "text": "- Two! I'm going to work.",
+        "char_count": 25,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "- Two! I'm going to work.",
+    "cea608_total_frames": 1,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 1081.67,
+  "sequence": 441
+}

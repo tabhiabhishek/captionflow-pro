@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 90.0,
+    "end_sec": 93.0,
+    "video_start": 0.0,
+    "video_end": 0.705,
+    "raw_text": "जाखी ये",
+    "current_start": "17:39:22.874",
+    "current_end": "17:39:47.226",
+    "text": "जाखी ये।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.8,
+        "text": "जाखी ये।",
+        "char_count": 8
+      }
+    ],
+    "cea608_frame": "जाखी ये।"
+  },
+  "processing_ms": 1032.42,
+  "sequence": 31
+}

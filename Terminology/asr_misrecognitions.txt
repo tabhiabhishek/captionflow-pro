@@ -1,0 +1,117 @@
+# ============================================
+# ASR MISRECOGNITION FIXES — Harvested from QA
+# Generated from 18-05-2026 match errors
+# Format: wrong: Correct
+# ============================================
+
+# --- Klaasen variants (10+ errors both systems) ---
+klarsen: Klaasen
+clarsen: Klaasen
+klossen: Klaasen
+glarsen: Klaasen
+glasstons: Klaasen
+klarsens: Klaasen
+klasser: Klaasen
+heriyk klaasen: Heinrich Klaasen
+henrich: Heinrich
+henry klaasen: Heinrich Klaasen
+
+# --- Brevis variants ---
+brewers: Brevis
+brevisch: Brevis
+grevis: Brevis
+grivises: Brevis
+devil brevis: Dewald Brevis
+dewarld: Dewald
+
+# --- Ishan Kishan variants ---
+tishan: Ishan
+nishan kishan: Ishan Kishan
+sishan kishan: Ishan Kishan
+gissan kishan: Ishan Kishan
+sharn kisshan: Ishan Kishan
+tishan kishan: Ishan Kishan
+
+# --- Urvil Patel variants ---
+urval: Urvil
+uval: Urvil
+orval: Urvil
+ulwel: Urvil
+urvar patar: Urvil Patel
+orval patel: Urvil Patel
+ulwel patel: Urvil Patel
+
+# --- Kamboj variants ---
+comboj: Kamboj
+combodia: Kamboj
+kambodia: Kamboj
+ansul kambodia: Anshul Kamboj
+ansul kamboj: Anshul Kamboj
+
+# --- Akeel Hosein variants ---
+kid hossain: Akeel Hosein
+arshid hussain: Akeel Hosein
+akil hussain: Akeel Hosein
+akhill hosean: Akeel Hosein
+akil hosean: Akeel Hosein
+akeal hosein: Akeel Hosein
+sak hussain: Sakib Hussain
+saqib: Sakib
+lucky hussain: Sakib Hussain
+
+# --- Ruturaj Gaikwad variants ---
+rutras gaikwas: Ruturaj Gaikwad
+daikwad: Gaikwad
+ruraj: Ruturaj
+vitraj: Ruturaj
+nikraj: Ruturaj
+
+# --- Krunal Pandya variants ---
+krunil: Krunal
+krinal pana: Krunal Pandya
+krunil pandya: Krunal Pandya
+
+# --- Cummins variants ---
+cummick: Cummins
+cumins: Cummins
+
+# --- Shivam / Shivang variants ---
+chivan: Shivam
+shivatobhi: Shivam Dube
+shivan: Shivang
+
+# --- Other name fixes ---
+prakel: Praful
+bhatik: Kartik
+malik: Malinga
+paws: Pat
+rcd: RCB
+ampire: Umpire
+chambri: Choudhary
+chowdhury: Choudhary
+bhuvanesh: Bhuvneshwar
+brashant: Prashant
+rishab bump: Rishabh Pant
+dubej: Dube
+nikish: Nitish
+ankor: Anchor
+jhonsen: Johnson
+jhoker: Johnson
+
+# --- Sponsor/brand fixes ---
+power blade: Powerplay
+sun arise: Sunrisers
+sunrisers: Sunrisers
+
+# --- Common word fixes from match ---
+atlacked: attacked
+two base batsman: two set batsman
+touching score: running score
+
+
+# --- From screenshot errors 19-05-2026 ---
+# NOTE: "Katakar. Face." and "Kid. I think I got four." are HALLUCINATIONS
+# not real ASR misrecognitions — handled by hallucination filter instead
+aslie: asli
+chivan dube: Shivam Dube
+tishan kishan: Ishan Kishan

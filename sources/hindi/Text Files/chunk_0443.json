@@ -1,0 +1,24 @@
+{
+  "segment": {
+    "start_sec": 1329.0,
+    "end_sec": 1332.0,
+    "video_start": 0.0,
+    "video_end": 0.846,
+    "raw_text": "इजसे टिर्फीन के लाद",
+    "current_start": "17:39:23.719",
+    "current_end": "17:41:01.679",
+    "text": "इजसे टिर्फीन के लाद।",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.0,
+        "local_end": 0.846,
+        "text": "इजसे टिर्फीन के लाद।",
+        "char_count": 20
+      }
+    ],
+    "cea608_frame": "इजसे टिर्फीन के लाद।"
+  },
+  "processing_ms": 162.66,
+  "sequence": 444
+}

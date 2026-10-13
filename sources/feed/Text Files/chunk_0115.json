@@ -1,0 +1,49 @@
+{
+  "segment": {
+    "start_sec": 345.0,
+    "end_sec": 348.0,
+    "video_start": 0.161,
+    "video_end": 1.248,
+    "raw_text": "What do you say? I want to ask someone.",
+    "current_start": "14:04:34.978",
+    "current_end": "14:58:55.037",
+    "text": "What do you say? I want to ask someone.",
+    "success": true,
+    "cea608_lines": [
+      {
+        "local_start": 0.161,
+        "local_end": 0.961,
+        "text": "What do you say? I want to",
+        "char_count": 26,
+        "scroll_gap_after_sec": 0.24,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 6,
+        "safety_pad_frames": 5
+      },
+      {
+        "local_start": 1.201,
+        "local_end": 2.001,
+        "text": "ask someone.",
+        "char_count": 12,
+        "scroll_gap_after_sec": 0.0,
+        "safety_pad_sec": 0.2,
+        "scroll_gap_after_frames": 0,
+        "safety_pad_frames": 5
+      }
+    ],
+    "cea608_frame": "What do you say? I want to | ask someone.",
+    "cea608_total_frames": 2,
+    "cea608_timing": {
+      "frame_rate": 25.0,
+      "scroll_gap_frames": 6,
+      "safety_pad_frames": 5,
+      "buffer_frames": 10,
+      "min_frames": 20,
+      "chars_per_frame": 2,
+      "max_line_len": 26,
+      "min_line_duration_sec": 0.8
+    }
+  },
+  "processing_ms": 6893.22,
+  "sequence": 280
+}
