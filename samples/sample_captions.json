@@ -1,0 +1,97 @@
+{
+  "_note": "Dummy sample output for demonstration only. Commentary and player names are fictional.",
+  "app": "CaptionFlow Pro",
+  "session": {
+    "id": "demo-2026-10-13-final",
+    "feed": "Feed 1 — English",
+    "source": "udp://239.1.1.10:5000",
+    "language": "en",
+    "model": "whisperx_large_v3",
+    "device": "cuda:0",
+    "compute_type": "float16",
+    "chunk_seconds": 3.0,
+    "terminology": "cricket_terms.txt",
+    "started_at": "2026-10-13T19:42:10+05:30"
+  },
+  "stats": {
+    "segments": 6,
+    "duration_sec": 45.3,
+    "avg_caption_delay_sec": 1.8,
+    "real_time_factor": 0.21,
+    "corrections_applied": 5,
+    "hallucinations_filtered": 1
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start": 7.35,
+      "end": 9.9,
+      "raw_text": "arjun meta runs in from the pavilion and",
+      "text": "Arjun Mehta runs in from the pavilion end.",
+      "confidence": 0.93,
+      "corrections": [
+        { "type": "player_name", "from": "arjun meta", "to": "Arjun Mehta" },
+        { "type": "terminology", "from": "pavilion and", "to": "pavilion end" }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 10.2,
+      "end": 12.6,
+      "raw_text": "full and straight your car length dug out for a single",
+      "text": "Full and straight, yorker length, dug out for a single.",
+      "confidence": 0.89,
+      "corrections": [
+        { "type": "asr_misrecognition", "from": "your car", "to": "yorker" }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 16.9,
+      "end": 19.35,
+      "raw_text": "short ball now and rohan kapoor pulls it away",
+      "text": "Short ball now, and Rohan Kapoor pulls it away!",
+      "confidence": 0.95,
+      "corrections": []
+    },
+    {
+      "id": 4,
+      "start": 19.6,
+      "end": 21.9,
+      "raw_text": "that is four through square leg that is four through square leg",
+      "text": "That is FOUR through square leg.",
+      "confidence": 0.94,
+      "corrections": [
+        { "type": "deduplication", "from": "repeated phrase", "to": "single phrase" }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 32.3,
+      "end": 34.9,
+      "raw_text": "they have gone upstairs for the drs review",
+      "text": "They have gone upstairs for the DRS review.",
+      "confidence": 0.91,
+      "corrections": [
+        { "type": "capitalization", "from": "drs", "to": "DRS" }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 39.5,
+      "end": 42.2,
+      "raw_text": "length ball lofted over long on that is six",
+      "text": "Length ball, lofted over long-on, that is SIX!",
+      "confidence": 0.96,
+      "corrections": []
+    }
+  ],
+  "filtered": [
+    {
+      "start": 35.0,
+      "end": 36.1,
+      "raw_text": "Thank you for watching. Please subscribe.",
+      "reason": "hallucination"
+    }
+  ]
+}

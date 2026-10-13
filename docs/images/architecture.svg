@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4b5563"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="440" rx="14" fill="#0f141a"/>
+  <rect x="0.5" y="0.5" width="1279" height="439" rx="14" fill="none" stroke="#2a323d"/>
+  <text x="40" y="52" font-size="22" font-weight="700" fill="#f3f4f6">How CaptionFlow Pro works</text>
+  <text x="40" y="78" font-size="14" fill="#9ca3af">Live audio in → accurate, broadcast-ready captions out in about 2 seconds</text>
+
+  <!-- stage boxes -->
+  <g font-size="15">
+    <!-- 1 Input -->
+    <rect x="40" y="120" width="190" height="150" rx="12" fill="#161c24" stroke="#2a323d"/>
+    <rect x="40" y="120" width="190" height="6" rx="3" fill="#38bdf8"/>
+    <text x="135" y="158" text-anchor="middle" font-weight="700" fill="#f3f4f6">1 · Input</text>
+    <text x="135" y="190" text-anchor="middle" font-size="13" fill="#9ca3af">UDP / MPEG-TS</text>
+    <text x="135" y="212" text-anchor="middle" font-size="13" fill="#9ca3af">SDI capture</text>
+    <text x="135" y="234" text-anchor="middle" font-size="13" fill="#9ca3af">Uploaded files</text>
+
+    <!-- 2 Capture -->
+    <rect x="280" y="120" width="190" height="150" rx="12" fill="#161c24" stroke="#2a323d"/>
+    <rect x="280" y="120" width="190" height="6" rx="3" fill="#a78bfa"/>
+    <text x="375" y="158" text-anchor="middle" font-weight="700" fill="#f3f4f6">2 · Capture</text>
+    <text x="375" y="190" text-anchor="middle" font-size="13" fill="#9ca3af">FFmpeg decode</text>
+    <text x="375" y="212" text-anchor="middle" font-size="13" fill="#9ca3af">16 kHz mono PCM</text>
+    <text x="375" y="234" text-anchor="middle" font-size="13" fill="#9ca3af">3 s chunks + overlap</text>
+
+    <!-- 3 ASR -->
+    <rect x="520" y="120" width="190" height="150" rx="12" fill="#161c24" stroke="#166534"/>
+    <rect x="520" y="120" width="190" height="6" rx="3" fill="#22c55e"/>
+    <text x="615" y="158" text-anchor="middle" font-weight="700" fill="#f3f4f6">3 · GPU ASR</text>
+    <text x="615" y="190" text-anchor="middle" font-size="13" fill="#9ca3af">WhisperX</text>
+    <text x="615" y="212" text-anchor="middle" font-size="13" fill="#9ca3af">faster-whisper / CT2</text>
+    <text x="615" y="234" text-anchor="middle" font-size="13" fill="#9ca3af">English · Hindi</text>
+
+    <!-- 4 Text processing -->
+    <rect x="760" y="120" width="210" height="150" rx="12" fill="#161c24" stroke="#2a323d"/>
+    <rect x="760" y="120" width="210" height="6" rx="3" fill="#f59e0b"/>
+    <text x="865" y="158" text-anchor="middle" font-weight="700" fill="#f3f4f6">4 · Text Cleanup</text>
+    <text x="865" y="190" text-anchor="middle" font-size="13" fill="#9ca3af">Cricket terms &amp; player names</text>
+    <text x="865" y="212" text-anchor="middle" font-size="13" fill="#9ca3af">Hallucination filter</text>
+    <text x="865" y="234" text-anchor="middle" font-size="13" fill="#9ca3af">De-duplication · casing</text>
+
+    <!-- 5 Output -->
+    <rect x="1020" y="120" width="220" height="150" rx="12" fill="#161c24" stroke="#2a323d"/>
+    <rect x="1020" y="120" width="220" height="6" rx="3" fill="#ec4899"/>
+    <text x="1130" y="158" text-anchor="middle" font-weight="700" fill="#f3f4f6">5 · Output</text>
+    <text x="1130" y="190" text-anchor="middle" font-size="13" fill="#9ca3af">CEA-608 live captions</text>
+    <text x="1130" y="212" text-anchor="middle" font-size="13" fill="#9ca3af">SRT / JSON export</text>
+    <text x="1130" y="234" text-anchor="middle" font-size="13" fill="#9ca3af">WebSocket → dashboard</text>
+  </g>
+
+  <g stroke="#4b5563" stroke-width="2" marker-end="url(#arr)">
+    <line x1="232" y1="195" x2="276" y2="195"/>
+    <line x1="472" y1="195" x2="516" y2="195"/>
+    <line x1="712" y1="195" x2="756" y2="195"/>
+    <line x1="972" y1="195" x2="1016" y2="195"/>
+  </g>
+
+  <!-- bottom layer -->
+  <rect x="40" y="310" width="1200" height="96" rx="12" fill="#121820" stroke="#2a323d" stroke-dasharray="6 6"/>
+  <text x="64" y="342" font-size="13" font-weight="700" fill="#9ca3af" letter-spacing="1">PLATFORM</text>
+  <g font-size="14" font-weight="600">
+    <rect x="64"  y="356" width="220" height="34" rx="8" fill="#1e2630"/><text x="174" y="378" text-anchor="middle" fill="#d1d5db">FastAPI + WebSockets</text>
+    <rect x="300" y="356" width="220" height="34" rx="8" fill="#1e2630"/><text x="410" y="378" text-anchor="middle" fill="#d1d5db">React + Vite + Tailwind</text>
+    <rect x="536" y="356" width="220" height="34" rx="8" fill="#1e2630"/><text x="646" y="378" text-anchor="middle" fill="#d1d5db">PyTorch · CUDA 12</text>
+    <rect x="772" y="356" width="220" height="34" rx="8" fill="#1e2630"/><text x="882" y="378" text-anchor="middle" fill="#d1d5db">Multi-feed workers</text>
+    <rect x="1008" y="356" width="208" height="34" rx="8" fill="#1e2630"/><text x="1112" y="378" text-anchor="middle" fill="#d1d5db">GPU / CPU telemetry</text>
+  </g>
+</svg>

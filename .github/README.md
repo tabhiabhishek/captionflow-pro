@@ -1,8 +1,22 @@
-# CaptionFlow Pro
+<p align="center">
+  <img src="/docs/images/banner.svg" alt="CaptionFlow Pro — Real-time GPU speech-to-text captioning for live cricket broadcasts" width="100%">
+</p>
 
-**Real-time GPU speech-to-text captioning for live cricket broadcasts.**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/CUDA-12.x-76B900?logo=nvidia&logoColor=white" alt="CUDA">
+  <img src="https://img.shields.io/badge/WhisperX-ASR-22c55e" alt="WhisperX">
+  <img src="https://img.shields.io/badge/license-proprietary-red" alt="License">
+</p>
 
 CaptionFlow Pro takes live broadcast feeds (UDP / MPEG-TS) or uploaded media and turns commentary into accurate captions in real time. It uses WhisperX / faster-whisper on the GPU, supports **English and Hindi**, and outputs **CEA-608** broadcast captions and **SRT** files.
+
+<p align="center">
+  <img src="/docs/images/dashboard.svg" alt="CaptionFlow Pro dashboard with two live feeds, English and Hindi" width="100%">
+  <br><sub>Dashboard preview: two live feeds (English and Hindi) captioned side by side on one GPU</sub>
+</p>
 
 ---
 
@@ -16,6 +30,45 @@ CaptionFlow Pro takes live broadcast feeds (UDP / MPEG-TS) or uploaded media and
 - **Broadcast-ready formats**: CEA-608 caption timing and sanitizing, plus SRT export
 - **Live dashboard**: React UI with WebSocket updates, GPU/CPU stats and CUDA diagnostics
 - **Desktop wrapper** for one-click launch
+
+## ⚙️ How It Works
+
+<p align="center">
+  <img src="/docs/images/architecture.svg" alt="Pipeline: Input → Capture → GPU ASR → Text Cleanup → Output" width="100%">
+</p>
+
+## 📝 Sample Output
+
+Sample files are in [`samples/`](/samples). They contain fictional commentary for demonstration only.
+
+| File | Description |
+|---|---|
+| [`sample_captions_en.srt`](/samples/sample_captions_en.srt) | English captions in SRT format |
+| [`sample_captions_hi.srt`](/samples/sample_captions_hi.srt) | Hindi captions in SRT format |
+| [`sample_captions.json`](/samples/sample_captions.json) | Full session export: raw ASR text, corrected text, confidence and every correction applied |
+
+**SRT output**
+```srt
+6
+00:00:16,900 --> 00:00:19,350
+Short ball now, and Rohan Kapoor
+pulls it away!
+
+7
+00:00:19,600 --> 00:00:21,900
+That is FOUR through square leg.
+```
+
+**Cricket-aware correction (from the JSON export)**
+```json
+{
+  "raw_text": "full and straight your car length dug out for a single",
+  "text": "Full and straight, yorker length, dug out for a single.",
+  "corrections": [
+    { "type": "asr_misrecognition", "from": "your car", "to": "yorker" }
+  ]
+}
+```
 
 ## 🧱 Tech Stack
 
