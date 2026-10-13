@@ -56,3 +56,7 @@ backend/app/quick_captions_wrapper.py
 backend/app/static_processing.py
 backend/pipelines/
 backend/app/asr_backends/
+
+# Local assistant notes (not published)
+CLAUDE.md
+.claude/
