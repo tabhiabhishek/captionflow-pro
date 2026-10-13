@@ -57,6 +57,3 @@ backend/app/static_processing.py
 backend/pipelines/
 backend/app/asr_backends/
 
-# Local assistant notes (not published)
-CLAUDE.md
-.claude/
